@@ -2778,10 +2778,10 @@ SourceDateEpoch: 1664871068
 CPE-ID: cpe:/a:w1.fi:hostapd
 Maintainer: Felix Fietkau <nbd@nbd.name>
 Architecture: arm_cortex-a9_vfpv3-d16
-Installed-Size: 415791
+Installed-Size: 416528
 Filename: wpad-basic-wolfssl_2022-01-16-cff80b4f-13.1_arm_cortex-a9_vfpv3-d16.ipk
-Size: 416221
-SHA256sum: d696b46837578d84cb4a266ad63f6324646aab24608f6fbd00368bd8cefee84d
+Size: 416603
+SHA256sum: b07d03ac4b8c6584c23f7a7dac74980982b21fbfdbc9f8ed796fab28437fdb5f
 Description:  This package contains a basic IEEE 802.1x/WPA Authenticator and Supplicant with WPA-PSK, SAE (WPA3-Personal), 802.11r and 802.11w support.
 
 Package: wpad-wolfssl

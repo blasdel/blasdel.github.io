@@ -513,14 +513,14 @@ Description:  The Linux-PAM Pluggable Authentication Modules.
 
 Package: libparted
 Version: 3.4-2
-Depends: libc, libblkid1, libuuid1, libdevmapper
+Depends: libc, libblkid1, libuuid1
 License: GPL-3.0-or-later
 Section: libs
 Architecture: arm_cortex-a9_vfpv3-d16
-Installed-Size: 191438
+Installed-Size: 188763
 Filename: libparted_3.4-2_arm_cortex-a9_vfpv3-d16.ipk
-Size: 191591
-SHA256sum: 53e9bcf4ae85b8662d68af396e080bf19cfbff69df68672b5e30a4f34beef774
+Size: 188834
+SHA256sum: 76ff45e3802b9b0678f2e9cf49b7b1109451487ea98169c2ad7234664b95b230
 Description:  GNU Parted shared library
 
 Package: libpython3-3.10
@@ -610,15 +610,15 @@ Description:  Library TI RPC for RPC bindings
 
 Package: libunbound
 Version: 1.16.3-1
-Depends: libc, ca-bundle, libopenssl1.1, libmnl0, libevent2-7, libpthread
+Depends: libc, ca-bundle, libopenssl1.1
 License: BSD-3-Clause
 Section: libs
 CPE-ID: cpe:/a:nlnetlabs:unbound
 Architecture: arm_cortex-a9_vfpv3-d16
-Installed-Size: 443427
+Installed-Size: 409784
 Filename: libunbound_1.16.3-1_arm_cortex-a9_vfpv3-d16.ipk
-Size: 438694
-SHA256sum: dc143de033ef059e89c88720f85efc560ab090ba3eb39c2c813d7173dea3a966
+Size: 404512
+SHA256sum: a292e6e9f4f174e32c725bbd434480dc8a424346e13e63e27fff3475b28abbf6
 Description:  This package contains the Unbound library including 'libevent', 'libmnl', and
  'libpthread' to better handle large networks with heavy query loads. Options
  are available to custom trim Unbound for smaller targets.
@@ -1133,10 +1133,10 @@ License: GPL-3.0-only
 Section: net
 CPE-ID: cpe:/a:samba:samba
 Architecture: arm_cortex-a9_vfpv3-d16
-Installed-Size: 9845098
+Installed-Size: 9841887
 Filename: samba4-libs_4.14.12-2_arm_cortex-a9_vfpv3-d16.ipk
-Size: 9743114
-SHA256sum: 87c937faab38d89abfeb7558a693a20114e1fe6adda939a81fdec9400853a239
+Size: 9738561
+SHA256sum: 49ec725ee3f6fb2fa53a99efbc7c1403e2c26876d313ad1669d0ba630d960e14
 Description:  Samba 4.14.12 libs
 
 Package: samba4-server
@@ -1147,10 +1147,10 @@ License: GPL-3.0-only
 Section: net
 CPE-ID: cpe:/a:samba:samba
 Architecture: arm_cortex-a9_vfpv3-d16
-Installed-Size: 6427467
+Installed-Size: 6427731
 Filename: samba4-server_4.14.12-2_arm_cortex-a9_vfpv3-d16.ipk
-Size: 6330176
-SHA256sum: 9d2253b884c1295e04a2f73cd6590660b0eabe465f7c83952190e628066b8cf9
+Size: 6330802
+SHA256sum: 57cc2a176844e78f8ee2b2eeb240ada54e1e11b63b609492d413cfa0c83371d4
 Description:  installs: smbd (nmbd) smbpasswd pdbedit testparm (nmblookup) (smbcacls sharesec)
  (samba samba-tool ntlm_auth samba-gpupdate samba_dnsupdate samba_kcc samba_spnupdate samba_upgradedns samba_downgrade_db)
  

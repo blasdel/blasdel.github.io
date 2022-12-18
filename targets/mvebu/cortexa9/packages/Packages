@@ -746,10 +746,10 @@ Version: 5.10.146+5.15.58-1-1
 Depends: kernel (=5.10.146-1-7dbab1cbfd6988195e4a1b71fd463600), kmod-mac80211, kmod-eeprom-93cx6
 Section: kernel
 Architecture: arm_cortex-a9_vfpv3-d16
-Installed-Size: 13410
+Installed-Size: 13412
 Filename: kmod-adm8211_5.10.146+5.15.58-1-1_arm_cortex-a9_vfpv3-d16.ipk
-Size: 14178
-SHA256sum: 35ac75376033915463ae4b1b13957bac6d4b3169ffc06b3c7d2abbf1ddcd04f5
+Size: 14179
+SHA256sum: 49c5cedb808bf5376ebabfcca8321fffb9558f9ed8ce812edfe40c80892acfd9
 Description:  ADMTek 8211 support
 
 Package: kmod-alx
@@ -781,10 +781,10 @@ Version: 5.10.146+5.15.58-1-1
 Depends: kernel (=5.10.146-1-7dbab1cbfd6988195e4a1b71fd463600), kmod-mac80211, kmod-ath, kmod-usb-core, kmod-input-core
 Section: kernel
 Architecture: arm_cortex-a9_vfpv3-d16
-Installed-Size: 12696
+Installed-Size: 12697
 Filename: kmod-ar5523_5.10.146+5.15.58-1-1_arm_cortex-a9_vfpv3-d16.ipk
-Size: 13487
-SHA256sum: 7d292f3d5cbe3e9f5f51993b87842e1a9c673b847f857509fd5eae587a74eea0
+Size: 13491
+SHA256sum: b582a2fac416093864fbf73469a66af955bb8567952ce58830a9c3f7bd250983
 Description:  Driver for Atheros AR5523 USB sticks
 
 Package: kmod-arptables
@@ -965,10 +965,10 @@ Provides: kmod-ath10k
 License: GPLv2
 Section: kernel
 Architecture: arm_cortex-a9_vfpv3-d16
-Installed-Size: 244168
+Installed-Size: 203453
 Filename: kmod-ath10k-ct_5.10.146+2022-05-13-f808496f-1_arm_cortex-a9_vfpv3-d16.ipk
-Size: 242029
-SHA256sum: 348ee888fb9963f0a29f1fc7bfd18750409e587ca32124a4fe7ae8a1fc63b6e7
+Size: 202249
+SHA256sum: 038683230e7466d18fc143a3cecc55ecd77bb1812b34319f47bffa8e96fdb711
 Description:  ath10k-ct driver optimized for CT ath10k firmware
 
 Package: kmod-ath10k-smallbuffers
@@ -987,10 +987,10 @@ Version: 5.10.146+5.15.58-1-1
 Depends: kernel (=5.10.146-1-7dbab1cbfd6988195e4a1b71fd463600), kmod-ath
 Section: kernel
 Architecture: arm_cortex-a9_vfpv3-d16
-Installed-Size: 198906
+Installed-Size: 174029
 Filename: kmod-ath10k_5.10.146+5.15.58-1-1_arm_cortex-a9_vfpv3-d16.ipk
-Size: 197583
-SHA256sum: cc9e291c15305efb7f48fe57fb6faff8cabd0c6092aad44d9319ae9b788be1b0
+Size: 173364
+SHA256sum: 593b35f9c86ee920770e38e515d3c9bbe337925df96905ce56c81567782448f1
 Description:  This module adds support for wireless adapters based on
  Atheros IEEE 802.11ac family of chipsets. For now only
  PCI is supported.
@@ -1012,10 +1012,10 @@ Version: 5.10.146+5.15.58-1-1
 Depends: kernel (=5.10.146-1-7dbab1cbfd6988195e4a1b71fd463600), kmod-ath
 Section: kernel
 Architecture: arm_cortex-a9_vfpv3-d16
-Installed-Size: 85205
+Installed-Size: 68116
 Filename: kmod-ath5k_5.10.146+5.15.58-1-1_arm_cortex-a9_vfpv3-d16.ipk
-Size: 85770
-SHA256sum: ff274538f38efb074d039a4592fdd0cd153316f6a9c24492fcf069ae050a699f
+Size: 68676
+SHA256sum: 59b548b18430653eb034ce5bbf954db0581fc5aae8bd7bfec401c759b0792ec5
 Description:  This module adds support for wireless adapters based on
  Atheros 5xxx chipset.
 
@@ -1024,10 +1024,10 @@ Version: 5.10.146+5.15.58-1-1
 Depends: kernel (=5.10.146-1-7dbab1cbfd6988195e4a1b71fd463600), kmod-mmc, kmod-ath6kl
 Section: kernel
 Architecture: arm_cortex-a9_vfpv3-d16
-Installed-Size: 8784
+Installed-Size: 7769
 Filename: kmod-ath6kl-sdio_5.10.146+5.15.58-1-1_arm_cortex-a9_vfpv3-d16.ipk
-Size: 9641
-SHA256sum: d5da1e13fa845aa8d287f7366a42ef925d90540a61d19766742da91cecb01ce4
+Size: 8631
+SHA256sum: 6dbd80f6a7da09b35806b61380e358d2baf5858b03d9afd78b04657bcfb3aebb
 Description:  This module adds support for wireless adapters based on
  Atheros IEEE 802.11n AR6003 and AR6004 family of chipsets.
 
@@ -1036,10 +1036,10 @@ Version: 5.10.146+5.15.58-1-1
 Depends: kernel (=5.10.146-1-7dbab1cbfd6988195e4a1b71fd463600), kmod-usb-core, kmod-ath6kl
 Section: kernel
 Architecture: arm_cortex-a9_vfpv3-d16
-Installed-Size: 6505
+Installed-Size: 5185
 Filename: kmod-ath6kl-usb_5.10.146+5.15.58-1-1_arm_cortex-a9_vfpv3-d16.ipk
-Size: 7402
-SHA256sum: f6ad6966d8bb82466bb48cd7760bf87417b620f2a1cfa5ffa250896909f7b08e
+Size: 6022
+SHA256sum: a2394c559eeb82c77a2835615d6aab250feef2ad1be294e3280bb12459645a92
 Description:  This module adds support for wireless adapters based on the
  Atheros IEEE 802.11n AR6004 chipset.
 
@@ -1048,10 +1048,10 @@ Version: 5.10.146+5.15.58-1-1
 Depends: kernel (=5.10.146-1-7dbab1cbfd6988195e4a1b71fd463600), kmod-ath
 Section: kernel
 Architecture: arm_cortex-a9_vfpv3-d16
-Installed-Size: 108088
+Installed-Size: 79569
 Filename: kmod-ath6kl_5.10.146+5.15.58-1-1_arm_cortex-a9_vfpv3-d16.ipk
-Size: 107915
-SHA256sum: d46906bb10643f067535fb0600913802326ca425f55222103622d8b4a7680863
+Size: 79862
+SHA256sum: 31b5db74e19a65bcfaca5ac1f23c84645d2c0bb728e8942717313b5524e23c24
 Description:  Atheros FullMAC wireless devices (common code for ath6kl_sdio and ath6kl_usb)
 
 Package: kmod-ath9k-common
@@ -1059,10 +1059,10 @@ Version: 5.10.146+5.15.58-1-1
 Depends: kernel (=5.10.146-1-7dbab1cbfd6988195e4a1b71fd463600), kmod-ath
 Section: kernel
 Architecture: arm_cortex-a9_vfpv3-d16
-Installed-Size: 125813
+Installed-Size: 113908
 Filename: kmod-ath9k-common_5.10.146+5.15.58-1-1_arm_cortex-a9_vfpv3-d16.ipk
-Size: 123849
-SHA256sum: 190ad110f5dda3a689ea270a6957589d06cdbf17c857d7a9b8fcf3e723543893
+Size: 112637
+SHA256sum: b1e235071a823d1d6e6fc1cffd4c7531fab052c33ddf81695accaf2f9a230ca3
 Description:  Atheros 802.11n wireless devices (common code for ath9k and ath9k_htc)
 
 Package: kmod-ath9k-htc
@@ -1070,10 +1070,10 @@ Version: 5.10.146+5.15.58-1-1
 Depends: kernel (=5.10.146-1-7dbab1cbfd6988195e4a1b71fd463600), kmod-ath9k-common, kmod-usb-core, ath9k-htc-firmware
 Section: kernel
 Architecture: arm_cortex-a9_vfpv3-d16
-Installed-Size: 37470
+Installed-Size: 33637
 Filename: kmod-ath9k-htc_5.10.146+5.15.58-1-1_arm_cortex-a9_vfpv3-d16.ipk
-Size: 38279
-SHA256sum: 5a5b17cea3b042002200051be9344f3611e201db874b65f0e41dcee44ebff3c3
+Size: 34489
+SHA256sum: 4f825e98a819e6bca2d43ae208005f4bd981a58a18f70983580f9447833986ed
 Description:  This module adds support for wireless adapters based on
  Atheros USB AR9271 and AR7010 family of chipsets.
 
@@ -1082,10 +1082,10 @@ Version: 5.10.146+5.15.58-1-1
 Depends: kernel (=5.10.146-1-7dbab1cbfd6988195e4a1b71fd463600), kmod-ath9k-common
 Section: kernel
 Architecture: arm_cortex-a9_vfpv3-d16
-Installed-Size: 63030
+Installed-Size: 47300
 Filename: kmod-ath9k_5.10.146+5.15.58-1-1_arm_cortex-a9_vfpv3-d16.ipk
-Size: 63529
-SHA256sum: 47034e0331e6192101a49f97a935123e2d6f44244f2939c662cdeefc345e04ed
+Size: 48038
+SHA256sum: e342e6e13d13f9cd9b8120a95b451a9dfe33caa76e292c2a4676d4b5f9b233e9
 Description:  This module adds support for wireless adapters based on
  Atheros IEEE 802.11n AR5008 and AR9001 family of chipsets.
 
@@ -1201,10 +1201,10 @@ Version: 5.10.146+5.15.58-1-1
 Depends: kernel (=5.10.146-1-7dbab1cbfd6988195e4a1b71fd463600), kmod-mac80211, kmod-lib-cordic, kmod-ssb, kmod-bcma
 Section: kernel
 Architecture: arm_cortex-a9_vfpv3-d16
-Installed-Size: 284869
+Installed-Size: 180492
 Filename: kmod-b43_5.10.146+5.15.58-1-1_arm_cortex-a9_vfpv3-d16.ipk
-Size: 280792
-SHA256sum: e64e6a8fb9f53c4c17903882cf41d9779a4e2bc1c3d533296fda80370c1f138b
+Size: 179585
+SHA256sum: 695997ed489c56028f573646b75fce81585fcbd55f0cbe49be1ff0a3f9d2c47a
 Description:  Kernel module for Broadcom 43xx wireless support (mac80211 stack) new
 
 Package: kmod-b43legacy
@@ -1212,10 +1212,10 @@ Version: 5.10.146+5.15.58-1-1
 Depends: kernel (=5.10.146-1-7dbab1cbfd6988195e4a1b71fd463600), kmod-mac80211, kmod-ssb, b43legacy-firmware
 Section: kernel
 Architecture: arm_cortex-a9_vfpv3-d16
-Installed-Size: 50927
+Installed-Size: 50925
 Filename: kmod-b43legacy_5.10.146+5.15.58-1-1_arm_cortex-a9_vfpv3-d16.ipk
-Size: 51706
-SHA256sum: a65a2a639a7ec181c8d166ffc44f6cc3cb92eb796302dcdc970dd2adba4f2634
+Size: 51710
+SHA256sum: 3a2cd470a2cbe6043914fe92157a02915e59649a785ac7ad4b5ce46401e653de
 Description:  Kernel module for Broadcom 43xx-legacy wireless support (mac80211 stack) new
 
 Package: kmod-b44
@@ -1383,10 +1383,10 @@ Version: 5.10.146+5.15.58-1-1
 Depends: kernel (=5.10.146-1-7dbab1cbfd6988195e4a1b71fd463600), kmod-mac80211, kmod-bcma, kmod-lib-cordic, kmod-lib-crc8, kmod-brcmutil
 Section: kernel
 Architecture: arm_cortex-a9_vfpv3-d16
-Installed-Size: 232736
+Installed-Size: 232724
 Filename: kmod-brcmsmac_5.10.146+5.15.58-1-1_arm_cortex-a9_vfpv3-d16.ipk
-Size: 229089
-SHA256sum: a80efd3916fd27f5c444e08265763f27b1d9fd1b83701c898b693a2710ead485
+Size: 228996
+SHA256sum: e1a85bf95f51d5532b3f01de787f97bb91263bfff8038c41778af92f471f3c3f
 Description:  Kernel module for Broadcom IEEE802.11n PCIe Wireless cards
 
 Package: kmod-brcmutil
@@ -1639,10 +1639,10 @@ Version: 5.10.146+5.15.58-1-1
 Depends: kernel (=5.10.146-1-7dbab1cbfd6988195e4a1b71fd463600), kmod-mac80211, kmod-ath, kmod-usb-core, kmod-input-core, carl9170-firmware
 Section: kernel
 Architecture: arm_cortex-a9_vfpv3-d16
-Installed-Size: 50762
+Installed-Size: 41377
 Filename: kmod-carl9170_5.10.146+5.15.58-1-1_arm_cortex-a9_vfpv3-d16.ipk
-Size: 51422
-SHA256sum: 0fdb8cf6f2ce7e4e0ec23ba78b0f91eab9cb51b54dbd444cbf03bb5fb2fdf331
+Size: 42184
+SHA256sum: 17c8f0235bd975111b6742ef16c34ce6d72fc254f4d730d67677025ffb143916
 Description:  Driver for Atheros AR9170 USB sticks
 
 Package: kmod-cc2520
@@ -1674,10 +1674,10 @@ Version: 5.10.146+5.15.58-1-1
 Depends: kernel (=5.10.146-1-7dbab1cbfd6988195e4a1b71fd463600), iw, iwinfo, wireless-regdb
 Section: kernel
 Architecture: arm_cortex-a9_vfpv3-d16
-Installed-Size: 169721
+Installed-Size: 168195
 Filename: kmod-cfg80211_5.10.146+5.15.58-1-1_arm_cortex-a9_vfpv3-d16.ipk
-Size: 169653
-SHA256sum: db1c34d8c1f64e1f9ee101e57a96652cfee2202cf50aae6a20869522310f032b
+Size: 168151
+SHA256sum: 85ab10081cf79d23c80577c9312d0ef36585ca15c8d4002a1391b102c281bf76
 Description:  cfg80211 is the Linux wireless LAN (802.11) configuration API.
 
 Package: kmod-chaoskey
@@ -5538,10 +5538,10 @@ Version: 5.10.146+5.15.58-1-1
 Depends: kernel (=5.10.146-1-7dbab1cbfd6988195e4a1b71fd463600), kmod-mac80211, kmod-iwl-legacy, iwl3945-firmware
 Section: kernel
 Architecture: arm_cortex-a9_vfpv3-d16
-Installed-Size: 34138
+Installed-Size: 33757
 Filename: kmod-iwl3945_5.10.146+5.15.58-1-1_arm_cortex-a9_vfpv3-d16.ipk
-Size: 34993
-SHA256sum: 8cf8e2b19dc9c8f3f087bbfc0ff1dee955ab28a790cdbeec18aaca5050469d00
+Size: 34541
+SHA256sum: 676e110b216f6c1c698cae9e34cd3a425989da5e3643eca5cd92db8639b4dd8a
 Description:  iwl3945 kernel module for Intel 3945 support
 
 Package: kmod-iwl4965
@@ -5549,10 +5549,10 @@ Version: 5.10.146+5.15.58-1-1
 Depends: kernel (=5.10.146-1-7dbab1cbfd6988195e4a1b71fd463600), kmod-mac80211, kmod-iwl-legacy, iwl4965-firmware
 Section: kernel
 Architecture: arm_cortex-a9_vfpv3-d16
-Installed-Size: 55552
+Installed-Size: 53090
 Filename: kmod-iwl4965_5.10.146+5.15.58-1-1_arm_cortex-a9_vfpv3-d16.ipk
-Size: 56260
-SHA256sum: 56b4ffa9fd3dd64ca690035055ec3fe49bae90cd135df4004968ebe346904001
+Size: 53799
+SHA256sum: 4edc8ace91a62389aea7bd1c9dbc1f40b0e05e71825a70c9ffee37aac29ed71a
 Description:  iwl4965 kernel module for Intel 4965 support
 
 Package: kmod-iwlwifi
@@ -5560,10 +5560,10 @@ Version: 5.10.146+5.15.58-1-1
 Depends: kernel (=5.10.146-1-7dbab1cbfd6988195e4a1b71fd463600), kmod-mac80211
 Section: kernel
 Architecture: arm_cortex-a9_vfpv3-d16
-Installed-Size: 339008
+Installed-Size: 332283
 Filename: kmod-iwlwifi_5.10.146+5.15.58-1-1_arm_cortex-a9_vfpv3-d16.ipk
-Size: 337844
-SHA256sum: 2310a7b4f7bf0e6be5ae3d73ef75a41071ed9c9571a2f08f3a0b48c7cffdcb7b
+Size: 330980
+SHA256sum: 13a4dff4bc302981663ac3da654984e324953bee959ac1d214bb83a8ecbce484
 Description:  iwlwifi kernel module for
  Intel Wireless WiFi Link 6250AGN Adapter
  Intel 6000 Series Wi-Fi Adapters (6200AGN and 6300AGN)
@@ -6119,10 +6119,10 @@ Version: 5.10.146+5.15.58-1-1
 Depends: kernel (=5.10.146-1-7dbab1cbfd6988195e4a1b71fd463600), kmod-mac80211
 Section: kernel
 Architecture: arm_cortex-a9_vfpv3-d16
-Installed-Size: 24146
+Installed-Size: 24131
 Filename: kmod-mac80211-hwsim_5.10.146+5.15.58-1-1_arm_cortex-a9_vfpv3-d16.ipk
-Size: 24892
-SHA256sum: 586534521bc56a5af17f4109745a4f2ff0fee14e8f6d21da9cf2ed712b5e0426
+Size: 24875
+SHA256sum: a53b2126c1b9592168df2fb57d1aac308d53f2002f5383601e20ad4d2218dbb7
 Description:  mac80211 HW simulation device
 
 Package: kmod-mac80211
@@ -6130,10 +6130,10 @@ Version: 5.10.146+5.15.58-1-1
 Depends: kernel (=5.10.146-1-7dbab1cbfd6988195e4a1b71fd463600), kmod-cfg80211, kmod-crypto-cmac, kmod-crypto-ccm, kmod-crypto-gcm, hostapd-common
 Section: kernel
 Architecture: arm_cortex-a9_vfpv3-d16
-Installed-Size: 304831
+Installed-Size: 243044
 Filename: kmod-mac80211_5.10.146+5.15.58-1-1_arm_cortex-a9_vfpv3-d16.ipk
-Size: 303202
-SHA256sum: 14401e5c34fb89039d45401d2ddf6d7c9269cbfb9b3fedc95bd2a7d5d00b8956
+Size: 242469
+SHA256sum: 7ddc2c1975d0d65762957a1744459ab0a1e83befd5c1cdc6907a29492145ddc4
 Description:  Generic IEEE 802.11 Networking Stack (mac80211)
 
 Package: kmod-mac802154
@@ -6448,10 +6448,10 @@ Depends: kernel (=5.10.146-1-7dbab1cbfd6988195e4a1b71fd463600), kmod-mac80211, k
 License: GPLv2
 Section: kernel
 Architecture: arm_cortex-a9_vfpv3-d16
-Installed-Size: 22005
+Installed-Size: 22006
 Filename: kmod-mt76-connac_5.10.146+2022-09-06-d7054646-4_arm_cortex-a9_vfpv3-d16.ipk
-Size: 22813
-SHA256sum: 886f8e42c43428125e4b50d77c593f902e6e877196274384bc7327a50199e24c
+Size: 22810
+SHA256sum: c478e268d2d04402a7445a1bafc46e62bea641ac2b3ef6c993025321a5c6245e
 Description:  MediaTek MT7615/MT79xx wireless driver common code
 
 Package: kmod-mt76-core
@@ -6460,10 +6460,10 @@ Depends: kernel (=5.10.146-1-7dbab1cbfd6988195e4a1b71fd463600), kmod-mac80211
 License: GPLv2
 Section: kernel
 Architecture: arm_cortex-a9_vfpv3-d16
-Installed-Size: 29312
+Installed-Size: 29311
 Filename: kmod-mt76-core_5.10.146+2022-09-06-d7054646-4_arm_cortex-a9_vfpv3-d16.ipk
-Size: 30086
-SHA256sum: d9909847a84a098940243ec5362c727ee414360b4a21438742a68fb6b92948f4
+Size: 30083
+SHA256sum: edacbbcf8fd287fa8e8f020b30b6c099967d30c7397a7456e5545eab591cd19f
 Description:  MediaTek MT76xx wireless driver
 
 Package: kmod-mt76-sdio
@@ -6495,10 +6495,10 @@ Version: 5.10.146+5.15.58-1-1
 Depends: kernel (=5.10.146-1-7dbab1cbfd6988195e4a1b71fd463600), kmod-mac80211, kmod-usb-core, mt7601u-firmware
 Section: kernel
 Architecture: arm_cortex-a9_vfpv3-d16
-Installed-Size: 31567
+Installed-Size: 31570
 Filename: kmod-mt7601u_5.10.146+5.15.58-1-1_arm_cortex-a9_vfpv3-d16.ipk
-Size: 32217
-SHA256sum: 6c805712cda809f9f0f1343df117165e813aae0fe7e0c33d85b89ba4c103122a
+Size: 32210
+SHA256sum: db6476b64c90536b673bd6aeabaec7aac779358ff73a10edfa301fbddea9b87f
 Description:  MT7601U-based USB dongles Wireless Driver
 
 Package: kmod-mt7603
@@ -6507,10 +6507,10 @@ Depends: kernel (=5.10.146-1-7dbab1cbfd6988195e4a1b71fd463600), kmod-mac80211, k
 License: GPLv2
 Section: kernel
 Architecture: arm_cortex-a9_vfpv3-d16
-Installed-Size: 98261
+Installed-Size: 98255
 Filename: kmod-mt7603_5.10.146+2022-09-06-d7054646-4_arm_cortex-a9_vfpv3-d16.ipk
-Size: 99045
-SHA256sum: 39327ab5700e56486a722c15dc8c68827c6b300fe71b13f63745dd272d19e33d
+Size: 99055
+SHA256sum: db119f2dbbedce84262e49ccb1c5670076b7131b769c54eb68f40baf2be3dbe5
 Description:  MediaTek MT7603 wireless driver
 
 Package: kmod-mt7615-common
@@ -6519,10 +6519,10 @@ Depends: kernel (=5.10.146-1-7dbab1cbfd6988195e4a1b71fd463600), kmod-mac80211, k
 License: GPLv2
 Section: kernel
 Architecture: arm_cortex-a9_vfpv3-d16
-Installed-Size: 43973
+Installed-Size: 43965
 Filename: kmod-mt7615-common_5.10.146+2022-09-06-d7054646-4_arm_cortex-a9_vfpv3-d16.ipk
-Size: 44695
-SHA256sum: 6a2b2d84105ef085a2982042693656daed33df69437a632037b37fde41f9e62d
+Size: 44751
+SHA256sum: 6dbd58a51f6d10dc3859e5851ad0cc77647ded8d8643daa85da5569496427a4d
 Description:  MediaTek MT7615 wireless driver common code
 
 Package: kmod-mt7615-firmware
@@ -6545,8 +6545,8 @@ Section: kernel
 Architecture: arm_cortex-a9_vfpv3-d16
 Installed-Size: 8718
 Filename: kmod-mt7615e_5.10.146+2022-09-06-d7054646-4_arm_cortex-a9_vfpv3-d16.ipk
-Size: 9541
-SHA256sum: bcc706a83262b41821fdac639d6dfcfe51bdf4458e849f9d36f412b51f5a437f
+Size: 9540
+SHA256sum: cf01d4d8b8e47a074b3288b811f638580a1ff5438c6efc8e8eda56cf53615978
 Description:  MediaTek MT7615e wireless driver
 
 Package: kmod-mt7663-firmware-ap
@@ -6591,10 +6591,10 @@ Depends: kernel (=5.10.146-1-7dbab1cbfd6988195e4a1b71fd463600), kmod-mac80211, k
 License: GPLv2
 Section: kernel
 Architecture: arm_cortex-a9_vfpv3-d16
-Installed-Size: 3848
+Installed-Size: 3849
 Filename: kmod-mt7663s_5.10.146+2022-09-06-d7054646-4_arm_cortex-a9_vfpv3-d16.ipk
-Size: 4677
-SHA256sum: 4cb7ce6414ec6ad5346f5332020108deb73d6aae52d0c17d91e4ad8c36840862
+Size: 4678
+SHA256sum: 554234ff2cb0bc12e5cbc26495da3dadf9c4a066f9164c00f7e583f585b90380
 Description:  MediaTek MT7663s wireless driver
 
 Package: kmod-mt7663u
@@ -6603,10 +6603,10 @@ Depends: kernel (=5.10.146-1-7dbab1cbfd6988195e4a1b71fd463600), kmod-mac80211, k
 License: GPLv2
 Section: kernel
 Architecture: arm_cortex-a9_vfpv3-d16
-Installed-Size: 3414
+Installed-Size: 3413
 Filename: kmod-mt7663u_5.10.146+2022-09-06-d7054646-4_arm_cortex-a9_vfpv3-d16.ipk
-Size: 4243
-SHA256sum: ace899fcb5310269cdc0004a749b56a4838d20a6676219e6b94137808588cf24
+Size: 4246
+SHA256sum: 619fc78e245af4e65c89fbce478be0f389e10e3d6b22c8937d34740e380d71ea
 Description:  MediaTek MT7663u wireless driver
 
 Package: kmod-mt76
@@ -6639,10 +6639,10 @@ Depends: kernel (=5.10.146-1-7dbab1cbfd6988195e4a1b71fd463600), kmod-mac80211, k
 License: GPLv2
 Section: kernel
 Architecture: arm_cortex-a9_vfpv3-d16
-Installed-Size: 27172
+Installed-Size: 27169
 Filename: kmod-mt76x02-common_5.10.146+2022-09-06-d7054646-4_arm_cortex-a9_vfpv3-d16.ipk
-Size: 27964
-SHA256sum: 9e3066126d75a360ab4a23e5756851e6a6596382fd59bf17cfd0be04ec0830d3
+Size: 27971
+SHA256sum: b4e86ab86f0b7c556ee3ceda44e57b31b2e29e74c17c5ec22291e7b2f46c4e5f
 Description:  MediaTek MT76x0/MT76x2 wireless driver common code
 
 Package: kmod-mt76x02-usb
@@ -6663,10 +6663,10 @@ Depends: kernel (=5.10.146-1-7dbab1cbfd6988195e4a1b71fd463600), kmod-mac80211, k
 License: GPLv2
 Section: kernel
 Architecture: arm_cortex-a9_vfpv3-d16
-Installed-Size: 4100
+Installed-Size: 4101
 Filename: kmod-mt76x0e_5.10.146+2022-09-06-d7054646-4_arm_cortex-a9_vfpv3-d16.ipk
-Size: 4913
-SHA256sum: a77c599c781f16cb286933474ff9976e1de78b45b3449d790335903883de0cee
+Size: 4912
+SHA256sum: ca08fe6ed851264f560e332fd1068f21e09d584d39fc937e075df240c3d341b1
 Description:  MediaTek MT76x0E wireless driver
 
 Package: kmod-mt76x0u
@@ -6675,10 +6675,10 @@ Depends: kernel (=5.10.146-1-7dbab1cbfd6988195e4a1b71fd463600), kmod-mac80211, k
 License: GPLv2
 Section: kernel
 Architecture: arm_cortex-a9_vfpv3-d16
-Installed-Size: 4383
+Installed-Size: 4380
 Filename: kmod-mt76x0u_5.10.146+2022-09-06-d7054646-4_arm_cortex-a9_vfpv3-d16.ipk
-Size: 5216
-SHA256sum: 19014dcf8238747e24bd619f283073bfed4c99d655b026726544fef2278169d0
+Size: 5211
+SHA256sum: 627758f799ab813bc7842c033b26b8d7fea44a1e8f7c76bfa29daddb45ef7cc9
 Description:  MediaTek MT76x0U wireless driver
 
 Package: kmod-mt76x2-common
@@ -6701,8 +6701,8 @@ Section: kernel
 Architecture: arm_cortex-a9_vfpv3-d16
 Installed-Size: 8404
 Filename: kmod-mt76x2_5.10.146+2022-09-06-d7054646-4_arm_cortex-a9_vfpv3-d16.ipk
-Size: 9230
-SHA256sum: 482411ed73540d1a0d6edf6d305e0f36ef9464b0a529f4d5aa0ac415ab6fd786
+Size: 9225
+SHA256sum: 884a4d8de5e329e4deb36461cf43d452aa55f13bfd3f0333a05cee44937ee4d7
 Description:  MediaTek MT76x2 wireless driver
 
 Package: kmod-mt76x2u
@@ -6711,10 +6711,10 @@ Depends: kernel (=5.10.146-1-7dbab1cbfd6988195e4a1b71fd463600), kmod-mac80211, k
 License: GPLv2
 Section: kernel
 Architecture: arm_cortex-a9_vfpv3-d16
-Installed-Size: 8027
+Installed-Size: 8030
 Filename: kmod-mt76x2u_5.10.146+2022-09-06-d7054646-4_arm_cortex-a9_vfpv3-d16.ipk
-Size: 8878
-SHA256sum: 3cef5cd95b4f5347e456fe7cd614d66465f0992cb945e19745960745fffb7dbc
+Size: 8881
+SHA256sum: 45550aa52be3de841c27deebc96bcfd05294cb8ab68f29bbaa3743bb9986992c
 Description:  MediaTek MT76x2U wireless driver
 
 Package: kmod-mt7915e
@@ -6723,10 +6723,10 @@ Depends: kernel (=5.10.146-1-7dbab1cbfd6988195e4a1b71fd463600), kmod-mac80211, k
 License: GPLv2
 Section: kernel
 Architecture: arm_cortex-a9_vfpv3-d16
-Installed-Size: 568962
+Installed-Size: 568863
 Filename: kmod-mt7915e_5.10.146+2022-09-06-d7054646-4_arm_cortex-a9_vfpv3-d16.ipk
-Size: 565092
-SHA256sum: 32cf6c0c78eacd2b513de42d8ff0e569c0d81c30af118b0958aeaa154b039714
+Size: 565088
+SHA256sum: 435d88b266b2ad318c631d0c37783255b2eb98e38ead5deac2cb8505e85f70ad
 Description:  MediaTek MT7915e wireless driver
 
 Package: kmod-mt7921-common
@@ -6735,10 +6735,10 @@ Depends: kernel (=5.10.146-1-7dbab1cbfd6988195e4a1b71fd463600), kmod-mac80211, k
 License: GPLv2
 Section: kernel
 Architecture: arm_cortex-a9_vfpv3-d16
-Installed-Size: 29473
+Installed-Size: 29479
 Filename: kmod-mt7921-common_5.10.146+2022-09-06-d7054646-4_arm_cortex-a9_vfpv3-d16.ipk
-Size: 30117
-SHA256sum: c251fea4c320aec7c54d1e12c419f5312d22d4d601cbef1751714d3daca19dc5
+Size: 30108
+SHA256sum: 6e938d0c8684b3fbe163daeb65fe35e7129890630f46072a633646e52d53a5d2
 Description:  MediaTek MT7615 wireless driver common code
 
 Package: kmod-mt7921e
@@ -6773,8 +6773,8 @@ Section: kernel
 Architecture: arm_cortex-a9_vfpv3-d16
 Installed-Size: 4372
 Filename: kmod-mt7921u_5.10.146+2022-09-06-d7054646-4_arm_cortex-a9_vfpv3-d16.ipk
-Size: 5190
-SHA256sum: 3b049a9a349fa813fe2c426a06854158064944e0b7f23386affba8c1cf0e22cb
+Size: 5187
+SHA256sum: 57d1b0e3f3eab7cbdc146f969a8a65f09fe65e399c211242d6ea9be10007fe69
 Description:  MediaTek MT7921U wireless driver
 
 Package: kmod-mtd-rw
@@ -6876,10 +6876,10 @@ Version: 5.10.146+5.15.58-1-1
 Depends: kernel (=5.10.146-1-7dbab1cbfd6988195e4a1b71fd463600), kmod-mac80211, mwl8k-firmware
 Section: kernel
 Architecture: arm_cortex-a9_vfpv3-d16
-Installed-Size: 26926
+Installed-Size: 26927
 Filename: kmod-mwl8k_5.10.146+5.15.58-1-1_arm_cortex-a9_vfpv3-d16.ipk
-Size: 27618
-SHA256sum: 8efad6862d92f156f3c4dd7c3663e4d5b799324b749748a0314d097951b470eb
+Size: 27690
+SHA256sum: bfc28bd60524a9215cda6ee39e461b9b531621f6283fae053a9ac9cc2804d062
 Description:  Kernel modules for Marvell TOPDOG 802.11 Wireless cards
 
 Package: kmod-mwlwifi
@@ -7842,8 +7842,8 @@ Section: kernel
 Architecture: arm_cortex-a9_vfpv3-d16
 Installed-Size: 18925
 Filename: kmod-p54-common_5.10.146+5.15.58-1-1_arm_cortex-a9_vfpv3-d16.ipk
-Size: 19752
-SHA256sum: 7682bbf677355b2be95325f83431053abb96c77e86e81d994a3fe59cf5b2c0a8
+Size: 19742
+SHA256sum: 1eee5e4b6a7312a2c459cf0dce4227a998fce09797302df8039972873d124b8d
 Description:  Prism54 Drivers (COMMON)
 
 Package: kmod-p54-pci
@@ -8337,10 +8337,10 @@ Version: 5.10.146+5.15.58-1-1
 Depends: kernel (=5.10.146-1-7dbab1cbfd6988195e4a1b71fd463600), kmod-mac80211, rs9113-firmware
 Section: kernel
 Architecture: arm_cortex-a9_vfpv3-d16
-Installed-Size: 32679
+Installed-Size: 32681
 Filename: kmod-rsi91x_5.10.146+5.15.58-1-1_arm_cortex-a9_vfpv3-d16.ipk
-Size: 33452
-SHA256sum: 786413dc704f059e4dd609dc63dbdc7ebe382ee2723bfb97ce5cdd036279e4f4
+Size: 33468
+SHA256sum: 5ef5e144344f1732e6f0e39e6281a65404f8fa060e6dda9c1d0c1016f3bec0ab
 Description:  Redpine Signals Inc 91x WLAN driver support
 
 Package: kmod-rt2400-pci
@@ -8348,10 +8348,10 @@ Version: 5.10.146+5.15.58-1-1
 Depends: kernel (=5.10.146-1-7dbab1cbfd6988195e4a1b71fd463600), kmod-rt2x00-pci, kmod-eeprom-93cx6
 Section: kernel
 Architecture: arm_cortex-a9_vfpv3-d16
-Installed-Size: 8122
+Installed-Size: 8120
 Filename: kmod-rt2400-pci_5.10.146+5.15.58-1-1_arm_cortex-a9_vfpv3-d16.ipk
-Size: 8964
-SHA256sum: be825ff7e7e87b7bc45dadc8e4e4e29352f88ab1094fc7f69a75b63380ffb5a6
+Size: 8952
+SHA256sum: 70635da9393a6b683062228f21de89bc745fc40773ebbc2d56e4afdb7eedc32b
 Description:  Ralink Drivers for RT2x00 cards (RT2400 PCI)
 
 Package: kmod-rt2500-pci
@@ -8359,10 +8359,10 @@ Version: 5.10.146+5.15.58-1-1
 Depends: kernel (=5.10.146-1-7dbab1cbfd6988195e4a1b71fd463600), kmod-rt2x00-pci, kmod-eeprom-93cx6
 Section: kernel
 Architecture: arm_cortex-a9_vfpv3-d16
-Installed-Size: 9273
+Installed-Size: 9275
 Filename: kmod-rt2500-pci_5.10.146+5.15.58-1-1_arm_cortex-a9_vfpv3-d16.ipk
-Size: 10095
-SHA256sum: da7adcccd3ec39e45840398629d8a929b65e0044d6b61b5bc906b6c22d14f053
+Size: 10087
+SHA256sum: 4d2d23c07021f154101e1885085505a86cdc0046549485939c95993f39ce86f9
 Description:  Ralink Drivers for RT2x00 cards (RT2500 PCI)
 
 Package: kmod-rt2500-usb
@@ -8370,10 +8370,10 @@ Version: 5.10.146+5.15.58-1-1
 Depends: kernel (=5.10.146-1-7dbab1cbfd6988195e4a1b71fd463600), kmod-rt2x00-usb
 Section: kernel
 Architecture: arm_cortex-a9_vfpv3-d16
-Installed-Size: 9893
+Installed-Size: 9894
 Filename: kmod-rt2500-usb_5.10.146+5.15.58-1-1_arm_cortex-a9_vfpv3-d16.ipk
 Size: 10721
-SHA256sum: e2f01ca89926f004b5ef65d67f1bcb90c42d9ba8af7dcf00c9cb297d968b12a7
+SHA256sum: 967feedc3767406436efda246333e84b406d7fa6ced53c471eaa9cb2c6403464
 Description:  Ralink Drivers for RT2x00 cards (RT2500 USB)
 
 Package: kmod-rt2800-lib
@@ -8406,7 +8406,7 @@ Architecture: arm_cortex-a9_vfpv3-d16
 Installed-Size: 4341
 Filename: kmod-rt2800-pci_5.10.146+5.15.58-1-1_arm_cortex-a9_vfpv3-d16.ipk
 Size: 5179
-SHA256sum: 3d1dd8fae9617aac45cac9ac24b18ce899c64bf49c95304de9ce997db728b605
+SHA256sum: 8be3e7cfd8f8ca2fa1937662996e408918ed037207cc06ea0f85e05a3156f933
 Description:  Ralink Drivers for RT2x00 cards (RT2860 PCI)
 
 Package: kmod-rt2800-usb
@@ -8414,10 +8414,10 @@ Version: 5.10.146+5.15.58-1-1
 Depends: kernel (=5.10.146-1-7dbab1cbfd6988195e4a1b71fd463600), kmod-rt2x00-usb, kmod-rt2800-lib, kmod-lib-crc-ccitt, rt2800-usb-firmware
 Section: kernel
 Architecture: arm_cortex-a9_vfpv3-d16
-Installed-Size: 7624
+Installed-Size: 7625
 Filename: kmod-rt2800-usb_5.10.146+5.15.58-1-1_arm_cortex-a9_vfpv3-d16.ipk
-Size: 8498
-SHA256sum: bb8e6f0e10c4f8a492ec38354e42356312045b3193d8d29be9bc505e7c463c34
+Size: 8503
+SHA256sum: 427db1c8443383f582ce548e34e340954d047283ce35bbce663c04091c5e31eb
 Description:  Ralink Drivers for RT2x00 cards (RT2870 USB)
 
 Package: kmod-rt2x00-lib
@@ -8425,10 +8425,10 @@ Version: 5.10.146+5.15.58-1-1
 Depends: kernel (=5.10.146-1-7dbab1cbfd6988195e4a1b71fd463600), kmod-mac80211
 Section: kernel
 Architecture: arm_cortex-a9_vfpv3-d16
-Installed-Size: 24134
+Installed-Size: 24133
 Filename: kmod-rt2x00-lib_5.10.146+5.15.58-1-1_arm_cortex-a9_vfpv3-d16.ipk
-Size: 24841
-SHA256sum: 5f20e72ab80665c6b4e2e4662ec1c43de9b1d27c83b0bce7cd91d87ac7cbebbf
+Size: 24842
+SHA256sum: e717c5f2c682d7dac4278ae6c5b55ee7923ee62927165d23661af9af8a2fc19a
 Description:  Ralink Drivers for RT2x00 cards (LIB)
 
 Package: kmod-rt2x00-mmio
@@ -8469,10 +8469,10 @@ Version: 5.10.146+5.15.58-1-1
 Depends: kernel (=5.10.146-1-7dbab1cbfd6988195e4a1b71fd463600), kmod-rt2x00-pci, kmod-eeprom-93cx6, kmod-lib-crc-itu-t, rt61-pci-firmware
 Section: kernel
 Architecture: arm_cortex-a9_vfpv3-d16
-Installed-Size: 12896
+Installed-Size: 12899
 Filename: kmod-rt61-pci_5.10.146+5.15.58-1-1_arm_cortex-a9_vfpv3-d16.ipk
-Size: 13736
-SHA256sum: fc647bd88b383e6060c64451488c39d61631f08aad49d5452ed92f1be3c037c6
+Size: 13724
+SHA256sum: 8a6618046077d13b599033b9b78bc2fab8a9932bb66d623ad39fe36485560fbc
 Description:  Ralink Drivers for RT2x00 cards (RT2x61 PCI)
 
 Package: kmod-rt73-usb
@@ -8480,10 +8480,10 @@ Version: 5.10.146+5.15.58-1-1
 Depends: kernel (=5.10.146-1-7dbab1cbfd6988195e4a1b71fd463600), kmod-rt2x00-usb, kmod-lib-crc-itu-t, rt73-usb-firmware
 Section: kernel
 Architecture: arm_cortex-a9_vfpv3-d16
-Installed-Size: 12376
+Installed-Size: 12375
 Filename: kmod-rt73-usb_5.10.146+5.15.58-1-1_arm_cortex-a9_vfpv3-d16.ipk
-Size: 13151
-SHA256sum: 51f35ba3cb5755b120fb1c98ce1d28b19578f8afc6c4b829a4a26792d240585d
+Size: 13192
+SHA256sum: 59a7ec64dbba7402f5c29ad593ecad0a956cbc4413692e115f68bb8a5df6f7d7
 Description:  Ralink Drivers for RT2x00 cards (RT73 USB)
 
 Package: kmod-rtc-ds1307
@@ -8637,10 +8637,10 @@ Version: 5.10.146+5.15.58-1-1
 Depends: kernel (=5.10.146-1-7dbab1cbfd6988195e4a1b71fd463600), kmod-eeprom-93cx6, kmod-mac80211
 Section: kernel
 Architecture: arm_cortex-a9_vfpv3-d16
-Installed-Size: 21343
+Installed-Size: 21348
 Filename: kmod-rtl8180_5.10.146+5.15.58-1-1_arm_cortex-a9_vfpv3-d16.ipk
-Size: 22120
-SHA256sum: dbbf58c2b240bc3dd9bd47f4c042228c674def1b84f16fb37a3c63761b591b2c
+Size: 22118
+SHA256sum: e4589a3ade352c3c27064087e48105bf31b27c2aa570e5e41a37e3f325d05445
 Description:  Realtek Drivers for RTL818x devices (RTL8180 PCI)
 
 Package: kmod-rtl8187
@@ -8648,10 +8648,10 @@ Version: 5.10.146+5.15.58-1-1
 Depends: kernel (=5.10.146-1-7dbab1cbfd6988195e4a1b71fd463600), kmod-eeprom-93cx6, kmod-mac80211, kmod-usb-core
 Section: kernel
 Architecture: arm_cortex-a9_vfpv3-d16
-Installed-Size: 18294
+Installed-Size: 18290
 Filename: kmod-rtl8187_5.10.146+5.15.58-1-1_arm_cortex-a9_vfpv3-d16.ipk
-Size: 19145
-SHA256sum: cf6dad505fb540a7301294fa3ceea14794c6f9602743d8e7f89e403488b00816
+Size: 19136
+SHA256sum: 1f5307d6112ab2e6a690656cb889c4ffda63362f6dee55b4a32815c94b1b2de8
 Description:  Realtek Drivers for RTL818x devices (RTL8187 USB)
 
 Package: kmod-rtl8192c-common
@@ -8751,10 +8751,10 @@ Version: 5.10.146+5.15.58-1-1
 Depends: kernel (=5.10.146-1-7dbab1cbfd6988195e4a1b71fd463600), kmod-usb-core, kmod-mac80211
 Section: kernel
 Architecture: arm_cortex-a9_vfpv3-d16
-Installed-Size: 44864
+Installed-Size: 44870
 Filename: kmod-rtl8xxxu_5.10.146+5.15.58-1-1_arm_cortex-a9_vfpv3-d16.ipk
-Size: 45989
-SHA256sum: b14744cf8eee5948b27ba8cb045186917fc913bd7fd80c0f1023be7d9e9ea176
+Size: 45910
+SHA256sum: a477ef67765d82a3983c8d175581f9b3fdc931b497f76a7157388d913077ab69
 Description:  This is an alternative driver for various Realtek RTL8XXX
  parts written to utilize the Linux mac80211 stack.
  The driver is known to work with a number of RTL8723AU,
@@ -8815,10 +8815,10 @@ Version: 5.10.146+5.15.58-1-1
 Depends: kernel (=5.10.146-1-7dbab1cbfd6988195e4a1b71fd463600), kmod-mac80211
 Section: kernel
 Architecture: arm_cortex-a9_vfpv3-d16
-Installed-Size: 33545
+Installed-Size: 33549
 Filename: kmod-rtlwifi_5.10.146+5.15.58-1-1_arm_cortex-a9_vfpv3-d16.ipk
-Size: 34364
-SHA256sum: 24c28f7410cb61a968f5ef5c6f80c452e1c53eeb366023c291e91913a0596251
+Size: 34321
+SHA256sum: 7fa2e831f0660ddd72875869c17a5818ebe1a13491a8ea6b1f840a60ffc16207
 Description:  Realtek common driver part
 
 Package: kmod-rtw88
@@ -8826,10 +8826,10 @@ Version: 5.10.146+5.15.58-1-1
 Depends: kernel (=5.10.146-1-7dbab1cbfd6988195e4a1b71fd463600), kmod-mac80211
 Section: kernel
 Architecture: arm_cortex-a9_vfpv3-d16
-Installed-Size: 185045
+Installed-Size: 185046
 Filename: kmod-rtw88_5.10.146+5.15.58-1-1_arm_cortex-a9_vfpv3-d16.ipk
-Size: 173676
-SHA256sum: 0b53c901d6ef55867877a2d64548585c0afa13b835cbcb25c2dce39411c6405a
+Size: 174161
+SHA256sum: 09ae49fe2636aaa4c5cbcb41145198b9c3073a5b3d73c28bcb3dc4be8b9f30ff
 Description:  Realtek RTL8822BE/RTL8822CE/RTL8723DE
 
 Package: kmod-sched-act-vlan
@@ -11596,10 +11596,10 @@ Version: 5.10.146+5.15.58-1-1
 Depends: kernel (=5.10.146-1-7dbab1cbfd6988195e4a1b71fd463600), kmod-mac80211, wil6210-firmware
 Section: kernel
 Architecture: arm_cortex-a9_vfpv3-d16
-Installed-Size: 137238
+Installed-Size: 118421
 Filename: kmod-wil6210_5.10.146+5.15.58-1-1_arm_cortex-a9_vfpv3-d16.ipk
-Size: 135922
-SHA256sum: b0490d5a05a81627b3a32debfc6800bc65fa239037c4a4b94571c387fb4ea8a7
+Size: 117528
+SHA256sum: 274948a5712e6c87ef3fe0ed19971c58fe9cf4ed980032f83bffb42118df9046
 Description:  QCA/Wilocity 60g WiFi card wil6210 support
 
 Package: kmod-wireguard
@@ -11626,8 +11626,8 @@ Section: kernel
 Architecture: arm_cortex-a9_vfpv3-d16
 Installed-Size: 19881
 Filename: kmod-wl12xx_5.10.146+5.15.58-1-1_arm_cortex-a9_vfpv3-d16.ipk
-Size: 20494
-SHA256sum: 34288045b26d927d22ddc62271d41632610ca33804fc18d9fda7b75eb8e9f111
+Size: 20493
+SHA256sum: 77c92f98b63bc49bc14c49a40a639f31f3f30f5e8883a8eb3cef56f69b50423e
 Description:  Kernel modules for TI WL12xx
 
 Package: kmod-wl18xx
@@ -11635,10 +11635,10 @@ Version: 5.10.146+5.15.58-1-1
 Depends: kernel (=5.10.146-1-7dbab1cbfd6988195e4a1b71fd463600), kmod-wlcore, wl18xx-firmware
 Section: kernel
 Architecture: arm_cortex-a9_vfpv3-d16
-Installed-Size: 27528
+Installed-Size: 27533
 Filename: kmod-wl18xx_5.10.146+5.15.58-1-1_arm_cortex-a9_vfpv3-d16.ipk
-Size: 27823
-SHA256sum: 395ae61f17547bb21e693274d2eb1d9a18e71333de82c34edefbb66ed1ba8e41
+Size: 27777
+SHA256sum: 4b628247a24e53b83c7739d00046535c831fda7015ea7c1e7f10e5940f4b9659
 Description:  Kernel modules for TI WL18xx
 
 Package: kmod-wlcore
@@ -11646,10 +11646,10 @@ Version: 5.10.146+5.15.58-1-1
 Depends: kernel (=5.10.146-1-7dbab1cbfd6988195e4a1b71fd463600), kmod-mmc, kmod-mac80211
 Section: kernel
 Architecture: arm_cortex-a9_vfpv3-d16
-Installed-Size: 85079
+Installed-Size: 85068
 Filename: kmod-wlcore_5.10.146+5.15.58-1-1_arm_cortex-a9_vfpv3-d16.ipk
-Size: 85316
-SHA256sum: ce9297dd6c9534bea664dfcfd6c70c0d3b4fd759a6c124a746f6309270253995
+Size: 85290
+SHA256sum: 9f18e1a56cd12814aa58c05f91b90dfc72bb3b50501f96f14d9555aad5716704
 Description:  This module contains some common parts needed by TI Wireless drivers.
 
 Package: kmod-xfrm-interface
@@ -11669,10 +11669,10 @@ Version: 5.10.146+5.15.58-1-1
 Depends: kernel (=5.10.146-1-7dbab1cbfd6988195e4a1b71fd463600), kmod-usb-core, kmod-mac80211
 Section: kernel
 Architecture: arm_cortex-a9_vfpv3-d16
-Installed-Size: 41334
+Installed-Size: 41337
 Filename: kmod-zd1211rw_5.10.146+5.15.58-1-1_arm_cortex-a9_vfpv3-d16.ipk
-Size: 42042
-SHA256sum: 1576846b261a8ed2fa00154fcec2c57ee28f081850406d3e66d8a8100a2d404b
+Size: 42027
+SHA256sum: 9f82b805749e4d5e44de759d33736f3f0b0903853e2e124b343c6109e7a38292
 Description:  Zydas ZD1211 support
 
 Package: kmod-zram
