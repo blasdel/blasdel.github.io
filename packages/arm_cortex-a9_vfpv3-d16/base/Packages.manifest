@@ -16,6 +16,95 @@ Description:  Provides support for 6in4 tunnels in /etc/config/network.
  Refer to http://wiki.openwrt.org/doc/uci/network for
  configuration details.
 
+Package: ar3k-firmware
+Version: 20220411-1
+Depends: libc
+Source: package/firmware/linux-firmware
+SourceName: ar3k-firmware
+Section: firmware
+SourceDateEpoch: 1650223862
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 784807
+Filename: ar3k-firmware_20220411-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 785005
+SHA256sum: 3382126b47754641caa67f96faf24217986b79fc05a5bcde9346f62485f59bd2
+Description:  ath3k firmware
+
+Package: ath9k-htc-firmware
+Version: 20220411-1
+Depends: libc
+Source: package/firmware/linux-firmware
+SourceName: ath9k-htc-firmware
+Section: firmware
+SourceDateEpoch: 1650223862
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 61890
+Filename: ath9k-htc-firmware_20220411-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 62299
+SHA256sum: d5bcf92859e80a75ce3d5dddf3a9e6628cb5069488615551ae04ba04453e4a75
+Description:  AR9271/AR7010 firmware
+
+Package: b43legacy-firmware
+Version: 3.130.20.0-1
+Depends: libc
+Source: package/firmware/b43legacy-firmware
+SourceName: b43legacy-firmware
+Section: firmware
+SourceDateEpoch: 1614556761
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 16440
+Filename: b43legacy-firmware_3.130.20.0-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 17046
+SHA256sum: 78b956a5421f4929456143f73b0d64e0f16e4ebd25b5b933e4515c214d55d805
+Description:  Broadcom bcm43xx b43legacy firmware
+
+Package: bnx2-firmware
+Version: 20220411-1
+Depends: libc
+Source: package/firmware/linux-firmware
+SourceName: bnx2-firmware
+Section: firmware
+SourceDateEpoch: 1650223862
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 705237
+Filename: bnx2-firmware_20220411-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 705366
+SHA256sum: 8771cd1671835580579861991fecb6bedabf2b13fcd73a6403221aa2a261d4ea
+Description:  Broadcom BCM5706/5708/5709/5716 firmware
+
+Package: bnx2x-firmware
+Version: 20220411-1
+Depends: libc
+Source: package/firmware/linux-firmware
+SourceName: bnx2x-firmware
+Section: firmware
+SourceDateEpoch: 1650223862
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 9778112
+Filename: bnx2x-firmware_20220411-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 9744383
+SHA256sum: 71ab6bbbd263a0fd90381c3496e5debedbbb915e77d87fec79b48cfd45f79621
+Description:  =QLogic 5771x/578xx firmware
+
+Package: brcmfmac-firmware-usb
+Version: 20220411-1
+Depends: libc
+Source: package/firmware/linux-firmware
+SourceName: brcmfmac-firmware-usb
+Section: firmware
+SourceDateEpoch: 1650223862
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 502998
+Filename: brcmfmac-firmware-usb_20220411-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 503676
+SHA256sum: 90823d682089a9b53afe43c0aa0169e78c41917a8e03a3ed9897f038d519b14d
+Description:  Broadcom BCM43xx fullmac USB firmware
+
 Package: busybox
 Version: 1.35.0-4
 Depends: libc
@@ -68,6 +157,21 @@ Size: 123442
 SHA256sum: c170510b3f7d6b3e39a5857c8c2db932911c1bbdade6ea7d4e88770021c20aa4
 Description:  System CA certificates
 
+Package: carl9170-firmware
+Version: 20220411-1
+Depends: libc
+Source: package/firmware/linux-firmware
+SourceName: carl9170-firmware
+Section: firmware
+SourceDateEpoch: 1650223862
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 9772
+Filename: carl9170-firmware_20220411-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 10534
+SHA256sum: 0da6441cc19f14b1d838d3d33af4b8baa005733e658739cdf7c3a88e14205589
+Description:  AR9170 firmware
+
 Package: dnsmasq
 Version: 2.86-14
 Depends: libc, libubus20220601
@@ -86,6 +190,21 @@ Size: 136314
 SHA256sum: 75444723a30e930349f7b157b77b61c0b1e1d01d028c9e1e2e959abf960c8ea8
 Description:  It is intended to provide coupled DNS and DHCP service to a LAN.
 
+Package: e100-firmware
+Version: 20220411-1
+Depends: libc
+Source: package/firmware/linux-firmware
+SourceName: e100-firmware
+Section: firmware
+SourceDateEpoch: 1650223862
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 839
+Filename: e100-firmware_20220411-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 1585
+SHA256sum: 3cc08fc4a6d23f58b3021fbbb1fdf16cfe9e41406883a743a67c6a0280755754
+Description:  Intel e100
+
 Package: e2fsprogs
 Version: 1.46.5-1
 Depends: libc, libuuid1, libext2fs2
@@ -103,6 +222,21 @@ Size: 196774
 SHA256sum: bf2c0479cc895fde7fb3080448147dd781f86686037f73810a117a8e64a955f5
 Description:  This package contains essential ext2 filesystem utilities which consists of
  e2fsck, mke2fs and most of the other core ext2 filesystem utilities.
+
+Package: edgeport-firmware
+Version: 20220411-1
+Depends: libc
+Source: package/firmware/linux-firmware
+SourceName: edgeport-firmware
+Section: firmware
+SourceDateEpoch: 1650223862
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 18908
+Filename: edgeport-firmware_20220411-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 19608
+SHA256sum: 727fe0a6c1fc3ab3978da277f8c51c749bedc823090804b41e5ad4e2d781d2a6
+Description:  USB Inside Out Edgeport Serial Driver firmware
 
 Package: firewall4
 Version: 2022-10-14-4fbf6d75-1
@@ -186,6 +320,36 @@ Filename: iwinfo_2022-08-19-0dad3e66-1_arm_cortex-a9_vfpv3-d16.ipk
 Size: 8470
 SHA256sum: ec918370e3feabdab9f64e82b0525605b0db67248e4e448e34a2ff6aa43140e8
 Description:  Command line frontend for the wireless information library.
+
+Package: iwl3945-firmware
+Version: 20220411-1
+Depends: libc
+Source: package/firmware/linux-firmware
+SourceName: iwl3945-firmware
+Section: firmware
+SourceDateEpoch: 1650223862
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 63584
+Filename: iwl3945-firmware_20220411-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 64243
+SHA256sum: b0d84525c5f7b05304f3a69f98045c340b6abedc69ff018b1fbde65b6262dc83
+Description:  Intel IWL3945 firmware
+
+Package: iwl4965-firmware
+Version: 20220411-1
+Depends: libc
+Source: package/firmware/linux-firmware
+SourceName: iwl4965-firmware
+Section: firmware
+SourceDateEpoch: 1650223862
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 78629
+Filename: iwl4965-firmware_20220411-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 79234
+SHA256sum: d81f85ce53434ed1d1c22bc0bd30b4860e80e633a83539f3dce26882abdb59a9
+Description:  Intel IWL4965 firmware
 
 Package: jansson4
 Version: 2.13.1-2
@@ -326,6 +490,51 @@ Size: 5124
 SHA256sum: def0667a8a45fe803970c01c52b3ef60015982a4bbf1d891cf6d0b5cda4abcd5
 Description:  This package contains libcom_err, the common error description library
  bundled with e2fsprogs.
+
+Package: libertas-sdio-firmware
+Version: 20220411-1
+Depends: libc
+Source: package/firmware/linux-firmware
+SourceName: libertas-sdio-firmware
+Section: firmware
+SourceDateEpoch: 1650223862
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 348571
+Filename: libertas-sdio-firmware_20220411-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 349490
+SHA256sum: 967d0f95c301293d4f536b1100c61ac1ff73357b17090a206a4477a21cbf1d64
+Description:  Marvell 8385/8686/8688 SDIO firmware
+
+Package: libertas-spi-firmware
+Version: 20220411-1
+Depends: libc
+Source: package/firmware/linux-firmware
+SourceName: libertas-spi-firmware
+Section: firmware
+SourceDateEpoch: 1650223862
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 92259
+Filename: libertas-spi-firmware_20220411-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 93111
+SHA256sum: 75d63cd789ebfeb1c997b89cbdcba1c1f88d3fc06499814e51ac8a7e6693aeea
+Description:  Marvell 8686 SPI firmware
+
+Package: libertas-usb-firmware
+Version: 20220411-1
+Depends: libc
+Source: package/firmware/linux-firmware
+SourceName: libertas-usb-firmware
+Section: firmware
+SourceDateEpoch: 1650223862
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 216589
+Filename: libertas-usb-firmware_20220411-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 217360
+SHA256sum: bc32c8f27c925b913b51a8688a04944ad531c786bf3c290c6c82908aaf7df897
+Description:  Marvell 8388/8682 USB firmware
 
 Package: libext2fs2
 Version: 1.46.5-1
@@ -533,6 +742,52 @@ Size: 14332
 SHA256sum: 3963b5a482f1862722a9609ab7c19687ca8a8f09f601e102dc4158c0746cb38b
 Description:  This package contains a stripped down version of libnl
 
+Package: libopenssl-conf
+Version: 1.1.1q-1
+Depends: libc, libopenssl1.1
+Source: package/libs/openssl
+SourceName: libopenssl-conf
+License: OpenSSL
+LicenseFiles: LICENSE
+Section: libs
+SourceDateEpoch: 1658060911
+CPE-ID: cpe:/a:openssl:openssl
+Maintainer: Eneas U de Queiroz <cotequeiroz@gmail.com>
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 4474
+Filename: libopenssl-conf_1.1.1q-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 5497
+SHA256sum: bc89b9cf9a510f95f33ff6fe840a367bc674a4889ce4a7e7b342f2c4ea5c88b1
+Description:  The OpenSSL Project is a collaborative effort to develop a robust,
+ commercial-grade, full-featured, and Open Source toolkit implementing the
+ Transport Layer Security (TLS) protocol as well as a full-strength
+ general-purpose cryptography library.
+ This package installs the OpenSSL configuration file /etc/ssl/openssl.cnf.
+
+Package: libopenssl1.1
+Version: 1.1.1q-1
+Depends: libc, kmod-crypto-user
+Provides: libopenssl
+Source: package/libs/openssl
+SourceName: libopenssl
+License: OpenSSL
+LicenseFiles: LICENSE
+Section: libs
+SourceDateEpoch: 1658060911
+ABIVersion: 1.1
+CPE-ID: cpe:/a:openssl:openssl
+Maintainer: Eneas U de Queiroz <cotequeiroz@gmail.com>
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 1276028
+Filename: libopenssl1.1_1.1.1q-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 1264854
+SHA256sum: 18163228102c45c0297c3b5520ab05a201d19f235e2c2a8a11e0bcfe7382e0bc
+Description:  The OpenSSL Project is a collaborative effort to develop a robust,
+ commercial-grade, full-featured, and Open Source toolkit implementing the
+ Transport Layer Security (TLS) protocol as well as a full-strength
+ general-purpose cryptography library.
+ This package contains the OpenSSL shared libraries, needed by other programs.
+
 Package: libreadline8
 Version: 8.1-1
 Depends: libc, libncursesw6
@@ -729,7 +984,7 @@ Description:  The UUID library is used to generate unique identifiers for object
 
 Package: libwolfssl5.5.1.ee39414e
 Version: 5.5.1-stable-3
-Depends: libc
+Depends: libc, kmod-crypto-user
 Provides: libcyassl, libwolfssl, libcyassl5.5.1.ee39414e
 Source: package/libs/wolfssl
 SourceName: libwolfssl
@@ -741,10 +996,10 @@ ABIVersion: 5.5.1.ee39414e
 CPE-ID: cpe:/a:wolfssl:wolfssl
 Maintainer: Eneas U de Queiroz <cotequeiroz@gmail.com>
 Architecture: arm_cortex-a9_vfpv3-d16
-Installed-Size: 486078
+Installed-Size: 472191
 Filename: libwolfssl5.5.1.ee39414e_5.5.1-stable-3_arm_cortex-a9_vfpv3-d16.ipk
-Size: 482967
-SHA256sum: 3125ba0f7c4948e7b1a24eee4929c68b86309c487dcee4cc35eed05098baf404
+Size: 469393
+SHA256sum: b868afb37458f82d89c45ff2aef4a7f13157ca346b904a1643bf140033804cc9
 Description:  wolfSSL (formerly CyaSSL) is an SSL library optimized for small
  footprint, both on disk and for memory use.
 
@@ -782,6 +1037,36 @@ Size: 51223
 SHA256sum: 9ae4fad4614de30015e2ef2267d970fa2513e23cdc1ffefac7b9ce038131e160
 Description:  contains: mount, umount, findmnt
 
+Package: mt7601u-firmware
+Version: 20220411-1
+Depends: libc
+Source: package/firmware/linux-firmware
+SourceName: mt7601u-firmware
+Section: firmware
+SourceDateEpoch: 1650223862
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 26422
+Filename: mt7601u-firmware_20220411-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 27155
+SHA256sum: 364510694613a45d580b32b480161f7a5e227b7f0ce64c79be3526e8878b856d
+Description:  MediaTek MT7601U firmware
+
+Package: mwifiex-pcie-firmware
+Version: 20220411-1
+Depends: libc
+Source: package/firmware/linux-firmware
+SourceName: mwifiex-pcie-firmware
+Section: firmware
+SourceDateEpoch: 1650223862
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 514912
+Filename: mwifiex-pcie-firmware_20220411-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 515631
+SHA256sum: 88c368f7a61c777aac03376d0cba94243ef1359d6067bc80974507f2a4eede0c
+Description:  Marvell 8897 firmware
+
 Package: mwifiex-sdio-firmware
 Version: 20220411-1
 Depends: libc
@@ -796,6 +1081,21 @@ Filename: mwifiex-sdio-firmware_20220411-1_arm_cortex-a9_vfpv3-d16.ipk
 Size: 877105
 SHA256sum: 689a354dfd8ee98556e135bb105285bc1c363952dcae83b376cfb09e731278a5
 Description:  Marvell 8887/8997 firmware
+
+Package: mwl8k-firmware
+Version: 20220411-1
+Depends: libc
+Source: package/firmware/linux-firmware
+SourceName: mwl8k-firmware
+Section: firmware
+SourceDateEpoch: 1650223862
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 192387
+Filename: mwl8k-firmware_20220411-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 193261
+SHA256sum: ba1710afef33533ebcc1b6183289baa4d607d00ee1ab055436419fb58dd4967f
+Description:  Marvell 8366/8687 firmware
 
 Package: netifd
 Version: 2022-08-25-76d2d41b-1
@@ -908,6 +1208,34 @@ Description:  Lightweight package management system
  
  opkg knows how to install both .ipk and .deb packages.
 
+Package: p54-pci-firmware
+Version: 1
+Depends: libc
+Source: package/firmware/prism54-firmware
+SourceName: p54-pci-firmware
+Section: firmware
+SourceDateEpoch: 1481924362
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 23511
+Filename: p54-pci-firmware_1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 24189
+SHA256sum: 9533587911ea179eb716e98084572e4134706bddcd0f0738f910609c69078458
+Description:  p54-pci firmware
+
+Package: p54-usb-firmware
+Version: 1
+Depends: libc
+Source: package/firmware/prism54-firmware
+SourceName: p54-usb-firmware
+Section: firmware
+SourceDateEpoch: 1481924362
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 23804
+Filename: p54-usb-firmware_1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 24486
+SHA256sum: a6148dc56f2cc3e292aa5c0ff55cd494da64b74555b7a4a9ed386ee06af50095
+Description:  p54-usb firmware
+
 Package: ppp-mod-pppoe
 Version: 2.4.9.git-2021-01-04-3
 Depends: libc, kmod-pppoe
@@ -941,6 +1269,20 @@ Filename: ppp_2.4.9.git-2021-01-04-3_arm_cortex-a9_vfpv3-d16.ipk
 Size: 126746
 SHA256sum: 6fe724f869d4eaf85c8cc09a94795c71549a21668b67b0eb6030e3bfeae4b600
 Description:  This package contains the PPP (Point-to-Point Protocol) daemon.
+
+Package: prism54-firmware
+Version: 1
+Depends: libc
+Source: package/firmware/prism54-firmware
+SourceName: prism54-firmware
+Section: firmware
+SourceDateEpoch: 1481924362
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 80227
+Filename: prism54-firmware_1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 81057
+SHA256sum: e7b5303c4f9f0d4bc0af7bfa8793c29413db4b2a2ae1994175f2d88009c82d25
+Description:  prism54 firmware
 
 Package: procd-seccomp
 Version: 2022-06-01-7a009685-1
@@ -991,6 +1333,201 @@ Filename: procd_2022-06-01-7a009685-1_arm_cortex-a9_vfpv3-d16.ipk
 Size: 56174
 SHA256sum: 0ccfe7ac89dffe0b6750c01b4af2021baf8602c74835f3524de12047d15fb1a6
 Description:  OpenWrt system process manager
+
+Package: r8152-firmware
+Version: 20220411-1
+Depends: libc
+Source: package/firmware/linux-firmware
+SourceName: r8152-firmware
+Section: firmware
+SourceDateEpoch: 1650223862
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 9407
+Filename: r8152-firmware_20220411-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 10163
+SHA256sum: a48cd845922b35aa88a7852e4d70c7581a17bd9574ad427fc93481bf0aaaa407
+Description:  RealTek RTL8152 firmware
+
+Package: r8169-firmware
+Version: 20220411-1
+Depends: libc
+Source: package/firmware/linux-firmware
+SourceName: r8169-firmware
+Section: firmware
+SourceDateEpoch: 1650223862
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 23833
+Filename: r8169-firmware_20220411-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 24545
+SHA256sum: ab3c3f28ceb79378e8b5bdcc35275173675a4a5d147b5a5ba04d26fda5561e2c
+Description:  RealTek RTL8169 firmware
+
+Package: rs9113-firmware
+Version: 20220411-1
+Depends: libc
+Source: package/firmware/linux-firmware
+SourceName: rs9113-firmware
+Section: firmware
+SourceDateEpoch: 1650223862
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 84661
+Filename: rs9113-firmware_20220411-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 85270
+SHA256sum: 4e4b48908a657e7ca6266a09f40cbd7307f2d5977e7900d40a6be72dee4e37d6
+Description:  RedPine Signals rs9113 firmware
+
+Package: rt2800-pci-firmware
+Version: 20220411-1
+Depends: libc
+Source: package/firmware/linux-firmware
+SourceName: rt2800-pci-firmware
+Section: firmware
+SourceDateEpoch: 1650223862
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 3968
+Filename: rt2800-pci-firmware_20220411-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 4719
+SHA256sum: 8bcd3324cce93412807b9ec01e5831ff116459a68d9e62a5bcbdf2606260044f
+Description:  Ralink RT28xx/3xxx PCI/SoC firmware
+
+Package: rt2800-usb-firmware
+Version: 20220411-1
+Depends: libc
+Source: package/firmware/linux-firmware
+SourceName: rt2800-usb-firmware
+Section: firmware
+SourceDateEpoch: 1650223862
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 2938
+Filename: rt2800-usb-firmware_20220411-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 3678
+SHA256sum: a18bb75419163682b450cc3ec3c0472eb7d6e310b02146033c21b2df36f9427f
+Description:  Ralink RT28xx/3xxx USB firmware
+
+Package: rt61-pci-firmware
+Version: 20220411-1
+Depends: libc
+Source: package/firmware/linux-firmware
+SourceName: rt61-pci-firmware
+Section: firmware
+SourceDateEpoch: 1650223862
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 6503
+Filename: rt61-pci-firmware_20220411-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 7295
+SHA256sum: ade3d60ee7c0c398ae09924d5f7a73fd7b860996d66e65d770bcc79868f4fdb6
+Description:  Ralink RT2561 firmware
+
+Package: rt73-usb-firmware
+Version: 20220411-1
+Depends: libc
+Source: package/firmware/linux-firmware
+SourceName: rt73-usb-firmware
+Section: firmware
+SourceDateEpoch: 1650223862
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 1319
+Filename: rt73-usb-firmware_20220411-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 2070
+SHA256sum: a5f42638f4479b90079673710e5eb7c45d3d3cc03d0675a7868baa36606e9564
+Description:  Ralink RT2573 firmware
+
+Package: rtl8192ce-firmware
+Version: 20220411-1
+Depends: libc
+Source: package/firmware/linux-firmware
+SourceName: rtl8192ce-firmware
+Section: firmware
+SourceDateEpoch: 1650223862
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 20760
+Filename: rtl8192ce-firmware_20220411-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 21493
+SHA256sum: a6315c81a0be5ae9c763e51b22090a493046bb91f04e4f4ebd0a606419b869a1
+Description:  RealTek RTL8192CE firmware
+
+Package: rtl8192cu-firmware
+Version: 20220411-1
+Depends: libc
+Source: package/firmware/linux-firmware
+SourceName: rtl8192cu-firmware
+Section: firmware
+SourceDateEpoch: 1650223862
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 18711
+Filename: rtl8192cu-firmware_20220411-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 19485
+SHA256sum: ddad0b91df5a03700cebd790fd0db463f84df37a45fe709107ec4f98e9bd7b00
+Description:  RealTek RTL8192CU firmware
+
+Package: rtl8192de-firmware
+Version: 20220411-1
+Depends: libc
+Source: package/firmware/linux-firmware
+SourceName: rtl8192de-firmware
+Section: firmware
+SourceDateEpoch: 1650223862
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 13530
+Filename: rtl8192de-firmware_20220411-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 14282
+SHA256sum: 3fcd0aace78763b58632b9bea0b6a4b8c26c0d4e4f2b8578b8e72d95babe719c
+Description:  RealTek RTL8192DE firmware
+
+Package: rtl8192se-firmware
+Version: 20220411-1
+Depends: libc
+Source: package/firmware/linux-firmware
+SourceName: rtl8192se-firmware
+Section: firmware
+SourceDateEpoch: 1650223862
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 36778
+Filename: rtl8192se-firmware_20220411-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 37507
+SHA256sum: 83a1176bbc059a8196a2cc1d3302aa81b49b8ed630df761ed4f9f8704bc3968c
+Description:  RealTek RTL8192SE firmware
+
+Package: rtl8192su-firmware
+Version: 20220411-1
+Depends: libc
+Source: package/firmware/linux-firmware
+SourceName: rtl8192su-firmware
+Section: firmware
+SourceDateEpoch: 1650223862
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 63230
+Filename: rtl8192su-firmware_20220411-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 64028
+SHA256sum: 96156b5d6b69d3d817d5d0ddd82a2bee82d8d31612dfb2e93631370846c4aeb1
+Description:  RealTek RTL8192SU firmware
+
+Package: rtl8821ae-firmware
+Version: 20220411-1
+Depends: libc
+Source: package/firmware/linux-firmware
+SourceName: rtl8821ae-firmware
+Section: firmware
+SourceDateEpoch: 1650223862
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 23999
+Filename: rtl8821ae-firmware_20220411-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 24711
+SHA256sum: b693bf1d316e7e0f03ad0f104c433d51e23c74f277c932e702688820d9534955
+Description:  RealTek RTL8821AE firmware
 
 Package: terminfo
 Version: 6.3-1
@@ -1057,6 +1594,24 @@ Filename: ubusd_2022-06-01-2bebf93c-1_arm_cortex-a9_vfpv3-d16.ipk
 Size: 12303
 SHA256sum: 356a66c53e33315cd88654dbbd8120eb539c98ed9cb2a9042512f58d27131386
 Description:  OpenWrt RPC daemon
+
+Package: ucert
+Version: 2020-05-24-00b921d8-1
+Depends: libc, usign, libubox20220515
+Conflicts: ucert-full
+Source: package/system/ucert
+SourceName: ucert
+License: GPL-3.0+
+LicenseFiles: COPYING
+Section: base
+SourceDateEpoch: 1590332496
+Maintainer: Daniel Golle <daniel@makrotopia.org>
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 5446
+Filename: ucert_2020-05-24-00b921d8-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 6260
+SHA256sum: d0fa31be7fef82ce8bbce87223597493edf30bf9c4ff684571a8c1f9150cb51d
+Description:  OpenWrt certificate verification utility
 
 Package: uci
 Version: 2021-10-22-f84f49f0-6
@@ -1214,6 +1769,21 @@ Size: 13179
 SHA256sum: 0a10d5f3be0551383f164f6eda5a789bb586f4fe9edae4d95989f3ca4ef71f1f
 Description:  OpenWrt signature verification utility
 
+Package: wil6210-firmware
+Version: 20220411-1
+Depends: libc
+Source: package/firmware/linux-firmware
+SourceName: wil6210-firmware
+Section: firmware
+SourceDateEpoch: 1650223862
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 254949
+Filename: wil6210-firmware_20220411-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 255770
+SHA256sum: a3af42bfff3c3537526f90cb068d9f57548abf1405637397a6552b095f4c7d7f
+Description:  wil6210 firmware
+
 Package: wireless-regdb
 Version: 2022.08.12-1
 Depends: libc
@@ -1228,6 +1798,36 @@ Filename: wireless-regdb_2022.08.12-1_all.ipk
 Size: 2946
 SHA256sum: 1fddd626c171d4796eceab161d8e80968e01dd5bf7dcf999fce3977b57bce0c7
 Description:  Wireless Regulatory Database
+
+Package: wl12xx-firmware
+Version: 20220411-1
+Depends: libc
+Source: package/firmware/linux-firmware
+SourceName: wl12xx-firmware
+Section: firmware
+SourceDateEpoch: 1650223862
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 1175102
+Filename: wl12xx-firmware_20220411-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 1175134
+SHA256sum: 4dd4462986bdaf60408ba0cac8545d2a73c87c0611779f67a5a05ffec27ad2b6
+Description:  TI WL12xx firmware
+
+Package: wl18xx-firmware
+Version: 20220411-1
+Depends: libc
+Source: package/firmware/linux-firmware
+SourceName: wl18xx-firmware
+Section: firmware
+SourceDateEpoch: 1650223862
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 343336
+Filename: wl18xx-firmware_20220411-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 343951
+SHA256sum: 9f4b39aa3a411e8bf76c817f1bd45714da901f9db9f482f83beaa1985480b128
+Description:  TI WL18xx firmware
 
 Package: wpad-basic-wolfssl
 Version: 2022-01-16-cff80b4f-13.1
