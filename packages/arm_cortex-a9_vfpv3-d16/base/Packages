@@ -1238,6 +1238,23 @@ Description:  odhcpd is a daemon for serving and relaying IP management protocol
  DHCPv6,  prefix delegation and can be used to relay RA, DHCPv6 and NDP between
  routed (non-bridged) interfaces in case no delegated prefixes are available.
 
+Package: openssl-util
+Version: 1.1.1q-1
+Depends: libc, libopenssl1.1, libopenssl-conf
+License: OpenSSL
+Section: utils
+CPE-ID: cpe:/a:openssl:openssl
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 270817
+Filename: openssl-util_1.1.1q-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 264583
+SHA256sum: 4bdc3b4d9c460300ef47c1bc1ed31395d700d959d1a06e1320c8bbf4d6f187b5
+Description:  The OpenSSL Project is a collaborative effort to develop a robust,
+ commercial-grade, full-featured, and Open Source toolkit implementing the
+ Transport Layer Security (TLS) protocol as well as a full-strength
+ general-purpose cryptography library.
+ This package contains the OpenSSL command-line utility.
+
 Package: openwrt-keyring
 Version: 2022-03-25-62471e69-3
 Depends: libc

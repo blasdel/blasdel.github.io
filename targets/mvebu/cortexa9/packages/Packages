@@ -4333,10 +4333,10 @@ Depends: kernel (=5.10.146-1-7dbab1cbfd6988195e4a1b71fd463600)
 License: GPL-2.0
 Section: kernel
 Architecture: arm_cortex-a9_vfpv3-d16
-Installed-Size: 41851
+Installed-Size: 41994
 Filename: kmod-ikconfig_5.10.146-1_arm_cortex-a9_vfpv3-d16.ipk
-Size: 42747
-SHA256sum: 603df9f57fee2b6d357ed5c149dbe3e952b16cf9d6f7ed0ce6b9184280ce3720
+Size: 42897
+SHA256sum: 960d3cfc860b4ad484117fc0ce080909445ddc471e29fa2aa49fe9ef2c6d0c5a
 Description:  Kernel configuration via /proc/config.gz
 
 Package: kmod-industrialio-triggered-buffer
