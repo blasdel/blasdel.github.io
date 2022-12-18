@@ -142,10 +142,10 @@ Section: utils
 SourceDateEpoch: 1656362047
 CPE-ID: cpe:/a:matt_johnston:dropbear_ssh_server
 Architecture: arm_cortex-a9_vfpv3-d16
-Installed-Size: 24238
+Installed-Size: 21620
 Filename: dropbearconvert_2022.82-2_arm_cortex-a9_vfpv3-d16.ipk
-Size: 25012
-SHA256sum: 99b784f76f0a422a85ef19d0df93582204ea790a8f63fd16dd4b1533a44c6304
+Size: 22380
+SHA256sum: 5fe7cc80740b8ba7435bab7335fd0dba8b904f0e1d9aab32375fbc22cfb555b5
 Description:  Utility for converting SSH keys
 
 Package: ebtables-nft
@@ -5392,10 +5392,10 @@ License: GPL-2.0
 Section: kernel
 SourceDateEpoch: 1664279103
 Architecture: arm_cortex-a9_vfpv3-d16
-Installed-Size: 41994
+Installed-Size: 41851
 Filename: kmod-ikconfig_5.10.146-1_arm_cortex-a9_vfpv3-d16.ipk
-Size: 42897
-SHA256sum: 960d3cfc860b4ad484117fc0ce080909445ddc471e29fa2aa49fe9ef2c6d0c5a
+Size: 42747
+SHA256sum: 603df9f57fee2b6d357ed5c149dbe3e952b16cf9d6f7ed0ce6b9184280ce3720
 Description:  Kernel configuration via /proc/config.gz
 
 Package: kmod-industrialio-triggered-buffer

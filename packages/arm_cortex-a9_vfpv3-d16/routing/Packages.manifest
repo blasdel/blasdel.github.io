@@ -21,3 +21,22 @@ Description:  batctl is a more intuitive managment utility for B.A.T.M.A.N.-Adva
  version 2022.0 of the user space utility.
  Standard subcommands for configuration and online debugging are enabled.
 
+Package: mcproxy
+Version: 2017-08-24-93b5ace4-9
+Depends: libc, libpthread, libstdcpp6
+Source: feeds/routing/mcproxy
+SourceName: mcproxy
+License: GPL-2.0-or-later
+LicenseFiles: COPYING
+Section: net
+SourceDateEpoch: 1645886203
+Maintainer: Steven Barth <cyrus@openwrt.org>
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 131542
+Filename: mcproxy_2017-08-24-93b5ace4-9_arm_cortex-a9_vfpv3-d16.ipk
+Size: 132228
+SHA256sum: 4392305b9e4de38f78d906c25f7277b2d9e71f1ec080f2618f124e221c9e2b67
+Description:  mcproxy is a free & open source implementation of the IGMP/MLD proxy function (see  RFC 4605) for Linux systems.
+ It operates on the kernel tables for multicast routing and allows for multiple instantiations,
+ as well as dynamically changing downstream interfaces.
+
