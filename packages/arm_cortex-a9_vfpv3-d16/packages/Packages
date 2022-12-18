@@ -1,3 +1,59 @@
+Package: acl
+Version: 2.3.1-1
+Depends: libc, libacl
+License: LGPL-2.1 GPL-2.0
+Section: utils
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 20340
+Filename: acl_2.3.1-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 21128
+SHA256sum: e50f31d2567671a4b858e54deaa50369e0c9d1e53bc0c45edcb7b0655eda03be
+Description:  Access control list support
+ This package provides ACL manipulation utilities
+ - chacl
+ - getfacl
+ - setfacl
+
+Package: attr
+Version: 2.5.1-1
+Depends: libc, libattr
+License: GPL-2.0-or-later
+Section: utils
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 13303
+Filename: attr_2.5.1-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 14103
+SHA256sum: f470c160ce8e12284374b8be0a613875d082e0646989c9ff2de0995315e3ce9c
+Description:  Extended attributes support
+ This package provides xattr manipulation utilities
+ - attr
+ - getfattr
+ - setfattr
+
+Package: avahi-dbus-daemon
+Version: 0.8-7
+Depends: libc, libavahi-dbus-support, libexpat, librt, libdaemon
+Provides: avahi-daemon
+License: LGPL-2.1-or-later
+Section: net
+CPE-ID: cpe:/a:avahi:avahi
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 38974
+Filename: avahi-dbus-daemon_0.8-7_arm_cortex-a9_vfpv3-d16.ipk
+Size: 39863
+SHA256sum: 1302d8fad8cb340f5fe2d695b5311b99caec57c2bc0bb5e6d3924913434e382a
+Description:  Avahi is an mDNS/DNS-SD (aka RendezVous/Bonjour/ZeroConf)
+ implementation (library). It facilitates
+ service discovery on a local network -- this means that
+ you can plug your laptop or computer into a network and
+ instantly be able to view other people who you can chat with,
+ find printers to print to or find files being shared.
+ This kind of technology is already found in MacOS X
+ (branded 'Rendezvous', 'Bonjour' and sometimes 'ZeroConf')
+ and is very convenient.
+ .
+ This package contains an mDNS/DNS-SD daemon.
+
 Package: bash
 Version: 5.1.16-1
 Depends: libc, libncurses6, libreadline8
@@ -28,6 +84,18 @@ Description:  Btrfs is a new copy on write filesystem for Linux aimed at impleme
  administration. Initially developed by Oracle, Btrfs is licensed under the
  GPL and open for contribution from anyone.
 
+Package: cgi-io
+Version: 2022-08-10-901b0f04-21
+Depends: libc, libubox20220515, libubus20220601
+License: GPL-2.0-or-later
+Section: net
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 9433
+Filename: cgi-io_2022-08-10-901b0f04-21_arm_cortex-a9_vfpv3-d16.ipk
+Size: 10240
+SHA256sum: 4c97720c4f84f017226df79d782f6e4072c2f0a3cf046566120687007f230010
+Description:  This package contains an cgi utility that is useful for up/downloading files
+
 Package: cgroupfs-mount
 Version: 2020-06-26-05494281-2
 Depends: libc, mount-utils
@@ -51,6 +119,19 @@ Size: 33384802
 SHA256sum: 649329c02e5088275ab21e4d6a2111977bc54dddf4250ddd17fd066e26b0f15e
 Description:  An industry-standard container runtime with an emphasis on simplicity, robustness and portability
 
+Package: dbus
+Version: 1.13.18-12
+Depends: libc, libexpat, libdbus
+License: AFL-2.1
+Section: utils
+CPE-ID: cpe:/a:freedesktop:dbus
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 108927
+Filename: dbus_1.13.18-12_arm_cortex-a9_vfpv3-d16.ipk
+Size: 109097
+SHA256sum: d1c632b1d49503c2f52ddef93f41883539cdd559c8cca99d9d9dff89664f074a
+Description:  Simple interprocess messaging system (daemon)
+
 Package: dockerd
 Version: 20.10.18-1
 Depends: libc, ca-certificates, containerd, iptables, iptables-mod-extra, ip6tables, kmod-ipt-nat6, libseccomp, kmod-ipt-nat, kmod-ipt-physdev, kmod-nf-ipvs, kmod-veth, libnetwork, tini, uci-firewall
@@ -62,6 +143,32 @@ Filename: dockerd_20.10.18-1_arm_cortex-a9_vfpv3-d16.ipk
 Size: 16315219
 SHA256sum: c54090087dd33e831e27703af6158eb32c660e3d72c08a9a36c995fd308e977c
 Description:  The Docker CE Engine.
+
+Package: libacl
+Version: 2.3.1-1
+Depends: libc, libattr
+License: LGPL-2.1 GPL-2.0
+Section: libs
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 11630
+Filename: libacl_2.3.1-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 12419
+SHA256sum: aa165de906f0fecb2d265e798ef7810103655d03c5fe29b74c8b476c003fd035
+Description:  Access control list support
+ This package provides libacl
+
+Package: libarchive
+Version: 3.5.2-3
+Depends: libc, zlib, liblzma, libbz2-1.0, libexpat, libopenssl1.1
+License: BSD-2-Clause
+Section: libs
+CPE-ID: cpe:/a:libarchive:libarchive
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 278093
+Filename: libarchive_3.5.2-3_arm_cortex-a9_vfpv3-d16.ipk
+Size: 278304
+SHA256sum: 9be5c50e18a9720911030447f9224493ec18e8120468ce8ad857581774f15d81
+Description:  Multi-format archive and compression library
 
 Package: libattr
 Version: 2.5.1-1
@@ -75,6 +182,69 @@ Size: 7357
 SHA256sum: 0ad88664978118ea52761087a13f75dc184fb40591eced917bd898410454b4ed
 Description:  Extended attributes support
  This package provides libattr
+
+Package: libavahi-client
+Version: 0.8-7
+Depends: libc, avahi-dbus-daemon
+License: LGPL-2.1-or-later
+Section: libs
+CPE-ID: cpe:/a:avahi:avahi
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 17117
+Filename: libavahi-client_0.8-7_arm_cortex-a9_vfpv3-d16.ipk
+Size: 18283
+SHA256sum: 960ffe757effc6aa52c4dd539df9b634bc08cea137fab53fa7ee1732a928319f
+Description:  Avahi is an mDNS/DNS-SD (aka RendezVous/Bonjour/ZeroConf)
+ implementation (library). It facilitates
+ service discovery on a local network -- this means that
+ you can plug your laptop or computer into a network and
+ instantly be able to view other people who you can chat with,
+ find printers to print to or find files being shared.
+ This kind of technology is already found in MacOS X
+ (branded 'Rendezvous', 'Bonjour' and sometimes 'ZeroConf')
+ and is very convenient.
+ .
+ This packages adds the libavahi-client library.
+ It also automatically adds the required
+ libavahi-dbus-support and the avahi-dbus-daemon packages.
+ For more information please see the avahi documentation.
+
+Package: libavahi-dbus-support
+Version: 0.8-7
+Depends: libc, dbus
+Provides: libavahi
+License: LGPL-2.1-or-later
+Section: libs
+CPE-ID: cpe:/a:avahi:avahi
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 67765
+Filename: libavahi-dbus-support_0.8-7_arm_cortex-a9_vfpv3-d16.ipk
+Size: 68716
+SHA256sum: f727b7b9367e2a542ec7049416f9d4dae76c7c122b3d4dc9136f233ed2e51ce1
+Description:  Avahi is an mDNS/DNS-SD (aka RendezVous/Bonjour/ZeroConf)
+ implementation (library). It facilitates
+ service discovery on a local network -- this means that
+ you can plug your laptop or computer into a network and
+ instantly be able to view other people who you can chat with,
+ find printers to print to or find files being shared.
+ This kind of technology is already found in MacOS X
+ (branded 'Rendezvous', 'Bonjour' and sometimes 'ZeroConf')
+ and is very convenient.
+ .
+ The libavahi package contains the mDNS/DNS-SD shared libraries,
+ used by other programs. Specifically, it provides
+ libavahi-core and libavahi-common libraries.
+ .
+ The libavahi-dbus-support package enables
+ D-Bus support in avahi, needed to support
+ the libavahi-client library and avahi-utils.
+ .
+ Selecting this package modifies the build configuration
+ so that avahi packages are built with support for D-BUS enabled;
+ it does not generate a separate binary of its own.
+ It also automatically adds the D-Bus package to the build.
+ libavahi-dbus-support is selected automatically if you select
+ libavahi-client or avahi-utils.
 
 Package: libcurl4
 Version: 7.85.0-6.1
@@ -91,6 +261,39 @@ Size: 168549
 SHA256sum: 52a77fc5877aa3a4a648b2bf477f55ba0e6315d40b83196030ff7acb9369a927
 Description:  A client-side URL transfer library
 
+Package: libdaemon
+Version: 0.14-5
+Depends: libc
+Section: libs
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 8676
+Filename: libdaemon_0.14-5_arm_cortex-a9_vfpv3-d16.ipk
+Size: 9723
+SHA256sum: 2041623e795066b494fab201944e5b0e4cd56fcea2481835151d2fd6417da54b
+Description:  libdaemon is a lightweight C library that eases the writing of UNIX daemons.
+ It consists of the following parts:
+ - A wrapper around fork() which does the correct daemonization procedure of a process
+ - A wrapper around syslog() for simpler and compatible log output to Syslog or STDERR
+ - An API for writing PID files
+ - An API for serializing UNIX signals into a pipe for usage with select() or poll()
+ - An API for running subprocesses with STDOUT and STDERR redirected to syslog
+ 
+ APIs like these are used in most daemon software available. It is not that
+ simple to get it done right and code duplication is not a goal.
+
+Package: libdbus
+Version: 1.13.18-12
+Depends: libc, libpthread
+License: AFL-2.1
+Section: utils
+CPE-ID: cpe:/a:freedesktop:dbus
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 115908
+Filename: libdbus_1.13.18-12_arm_cortex-a9_vfpv3-d16.ipk
+Size: 116154
+SHA256sum: 1a93e6061e2ce34a06b0dc923e84ff9f45881f4f24742d7e65f05814f0700d5a
+Description:  Simple interprocess messaging system (library)
+
 Package: libdevmapper
 Version: 2.03.16-1
 Depends: libc, kmod-dm, libpthread, libuuid1, librt, libblkid1
@@ -104,6 +307,73 @@ Size: 154586
 SHA256sum: 75a46e66cf4fd9d159b4ef72b70114b54480a4a6f001a1d36ccb545730a27659
 Description:  The device-mapper is a component of the 2.6 linux kernel that supports logical
  volume management. It is required by LVM2 and EVMS.
+
+Package: libexpat
+Version: 2.4.9-1
+Depends: libc
+License: MIT
+Section: libs
+CPE-ID: cpe:/a:libexpat:expat
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 41625
+Filename: libexpat_2.4.9-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 42419
+SHA256sum: 06bb4d5a91074a1d3938466040a4e9d582866f718569f783c77d9da5a7145777
+Description:  A fast, non-validating, stream-oriented XML parsing library.
+
+Package: libffi
+Version: 3.4.2-2
+Depends: libc
+License: MIT
+Section: libs
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 15592
+Filename: libffi_3.4.2-2_arm_cortex-a9_vfpv3-d16.ipk
+Size: 16541
+SHA256sum: 0ed6de2de8fd62d903be97825084edc82c8a15f021bb5e7ab9e6baf7b3e6b064
+Description:  The libffi library provides a portable, high level programming interface to
+ various calling conventions. This allows a programmer to call any function
+ specified by a call interface description at run-time.
+ 
+ FFI stands for Foreign Function Interface. A foreign function interface is the
+ popular name for the interface that allows code written in one language to call
+ code written in another language. The libffi library really only provides the
+ lowest, machine dependent layer of a fully featured foreign function interface.
+ A layer must exist above libffi that handles type conversions for values passed
+ between the two languages.
+
+Package: libgdbm
+Version: 1.21-1
+Depends: libc
+License: GPL-3.0-or-later
+Section: libs
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 32968
+Filename: libgdbm_1.21-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 33719
+SHA256sum: 86808bed42780a7d72cc170d247433709255c09bf32869c2bf04e09a973934fa
+Description:  GNU database manager library
+ GNU dbm is a set of database routines that use extendible hashing and
+ works similar to the standard UNIX dbm routines.
+
+Package: libgnutls
+Version: 3.7.1-2
+Depends: libc, libnettle8, libgmp10, libatomic1
+License: LGPL-2.1-or-later
+Section: libs
+CPE-ID: cpe:/a:gnu:gnutls
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 915899
+Filename: libgnutls_3.7.1-2_arm_cortex-a9_vfpv3-d16.ipk
+Size: 914460
+SHA256sum: bdb5e677b0a8766fd1d896ff43e18874ba4c55b35a2ef94acf5ed0ead5b43f84
+Description:  GnuTLS is a secure communications library implementing the SSL, TLS
+ and DTLS protocols and technologies around them. It provides a simple
+ C language application programming interface (API) to access the secure
+ communications protocols as well as APIs to parse and write X.509, PKCS12,
+ OpenPGP and other required structures. It is aimed to be portable and
+ efficient with focus on security and interoperability.
+ This package contains the GnuTLS shared library, needed by other programs.
 
 Package: liblzma
 Version: 5.2.5-3
@@ -160,6 +430,19 @@ Size: 57271
 SHA256sum: 2ceb0da0fa23fe73710953441ca72f9974aa0e379b503b64a4017c4ca6dce678
 Description:  C library implementing the framing layer of the HTTP/2 protocol. It can be used to build a HTTP/2-capable HTTP client or server
 
+Package: libopenldap
+Version: 2.6.0-4
+Depends: libc, libopenssl1.1, libsasl2, libpthread, libuuid1
+License: OLDAP-2.8
+Section: net
+CPE-ID: cpe:/a:openldap:openldap
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 130607
+Filename: libopenldap_2.6.0-4_arm_cortex-a9_vfpv3-d16.ipk
+Size: 130670
+SHA256sum: c1c789b1b336f097379fe411969682533f6dd1af4fbc208c2fc5074389cb03d3
+Description:  OpenLDAP Software is an open source implementation of the Lightweight Directory Access Protocol (LDAP). This package contains the shared LDAP client libraries, needed by other programs.
+
 Package: libopenssl-gost_engine
 Version: 1.1.0.3-5
 Depends: libc, libopenssl1.1, libopenssl-conf
@@ -189,6 +472,34 @@ Size: 188834
 SHA256sum: 76ff45e3802b9b0678f2e9cf49b7b1109451487ea98169c2ad7234664b95b230
 Description:  GNU Parted shared library
 
+Package: libpython3-3.10
+Version: 3.10.7-1
+Depends: libc, libpthread, zlib
+Provides: libpython3
+License: PSF-2.0
+Section: lang
+ABIVersion: -3.10
+CPE-ID: cpe:/a:python:python
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 1016749
+Filename: libpython3-3.10_3.10.7-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 1009646
+SHA256sum: 716efffcfeecb9cb6708bfc46fd28d742fde899c6e4b414dc7fa70f97bbe1be1
+Description:  This package contains only core Python library.
+
+Package: libsasl2
+Version: 2.1.27-5
+Depends: libc, libopenssl1.1
+License: BSD-4c BSD
+Section: libs
+CPE-ID: cpe:/a:cmu:cyrus-sasl
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 86252
+Filename: libsasl2_2.1.27-5_arm_cortex-a9_vfpv3-d16.ipk
+Size: 87046
+SHA256sum: a3719af5eaebe2d92fc9212bb0d07ebf8a97bd6a0025f7ad9a1d8057a43629a7
+Description:  A general purpose authentication library (libraries)
+
 Package: libseccomp
 Version: 2.5.2-1
 Depends: libc
@@ -201,6 +512,65 @@ Filename: libseccomp_2.5.2-1_arm_cortex-a9_vfpv3-d16.ipk
 Size: 44775
 SHA256sum: 6efe79816b4a459f7fc518403b8449a5ecc1e845f38306338ee7d4312bfe4137
 Description:  This package contains the seccomp library.
+
+Package: libsqlite3-0
+Version: 3370000-1
+Depends: libc, libpthread, zlib
+Provides: libsqlite3
+License: PUBLICDOMAIN
+Section: libs
+ABIVersion: -0
+CPE-ID: cpe:/a:sqlite:sqlite
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 494124
+Filename: libsqlite3-0_3370000-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 494285
+SHA256sum: 1baf55cc4c651f75a59e3b583aff744c7cf472fccf1c816152588f6ab940f5a5
+Description:  SQLite is a small C library that implements a self-contained, embeddable,
+ zero-configuration SQL database engine.
+ This package contains the SQLite (v3.x) shared library, used by other
+ programs.
+
+Package: libtasn1
+Version: 4.16.0-2
+Depends: libc
+License: LGPL-2.1-or-later
+Section: libs
+CPE-ID: cpe:/a:gnu:libtasn1
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 31064
+Filename: libtasn1_4.16.0-2_arm_cortex-a9_vfpv3-d16.ipk
+Size: 31905
+SHA256sum: 7043d393502c6d314a21bcdc4d73ae0a0693f50d27cc696afe22770c1c04e07c
+Description:  This is a library for Abstract Syntax Notation One (ASN.1) and
+ Distinguish Encoding Rules (DER) manipulation.
+
+Package: libtirpc
+Version: 1.3.2-1
+Depends: libc, libpthread
+License: BSD-3-Clause
+Section: libs
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 59751
+Filename: libtirpc_1.3.2-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 60479
+SHA256sum: 6159e1e0b7ea0d946194a4a4e58f34a19886b888c58136ff711a766567dca5d9
+Description:  Library TI RPC for RPC bindings
+
+Package: liburing
+Version: 2.1-2
+Depends: libc
+License: MIT
+Section: libs
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 5307
+Filename: liburing_2.1-2_arm_cortex-a9_vfpv3-d16.ipk
+Size: 6209
+SHA256sum: 4c4a87c1d7e437a2faeab97d06276b714f754367b09c9bd796a8a7888f0312e1
+Description:  liburing provides helpers to setup and teardown io_uring instances,
+ and also a simplified interface for applications that don't need
+ (or want) to deal with the full kernel side implementation.
+ For more info on io_uring, please see: https://kernel.dk/io_uring.pdf
 
 Package: libzstd
 Version: 1.5.2-1
@@ -255,6 +625,361 @@ Description:  GNU Parted manipulates partition tables. This is useful for
  creating space for new operating systems, reorganizing
  disk usage, copying data on hard disks and disk imaging.
 
+Package: python3-asyncio
+Version: 3.10.7-1
+Depends: libc, python3-light
+License: PSF-2.0
+Section: lang
+CPE-ID: cpe:/a:python:python
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 146928
+Filename: python3-asyncio_3.10.7-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 147915
+SHA256sum: 328a73f59bcba1e03ee8f37d9fab0f84adb09482b0c16d2f71c8cf5dd73f5a91
+Description:  Python 3.10 asyncio module
+
+Package: python3-base
+Version: 3.10.7-1
+Depends: libc, libpthread, zlib, libpython3-3.10
+License: PSF-2.0
+Section: lang
+CPE-ID: cpe:/a:python:python
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 157655
+Filename: python3-base_3.10.7-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 157428
+SHA256sum: 1857b27df0d9b784a5d707975af260e8bad382a9f3c3afc2f8be464875430371
+Description:  This package contains only the interpreter and the bare minimum
+ for the interpreter to start.
+
+Package: python3-cgi
+Version: 3.10.7-1
+Depends: libc, python3-light, python3-email
+License: PSF-2.0
+Section: lang
+CPE-ID: cpe:/a:python:python
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 12281
+Filename: python3-cgi_3.10.7-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 13161
+SHA256sum: 18115c3baabe024292bbd5404f3db05229eacfc0e12ec0e68ceeac42938122c6
+Description:  Python 3.10 cgi module
+
+Package: python3-cgitb
+Version: 3.10.7-1
+Depends: libc, python3-light, python3-cgi, python3-pydoc
+License: PSF-2.0
+Section: lang
+CPE-ID: cpe:/a:python:python
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 5518
+Filename: python3-cgitb_3.10.7-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 6372
+SHA256sum: eaf8d527e0b5d64f256816024b8bc3b6697ba35c94c56e4f79324dfb9fa909b9
+Description:  Python 3.10 cgitb module
+
+Package: python3-codecs
+Version: 3.10.7-1
+Depends: libc, python3-light
+License: PSF-2.0
+Section: lang
+CPE-ID: cpe:/a:python:python
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 770512
+Filename: python3-codecs_3.10.7-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 743452
+SHA256sum: 8b01bde7a21c2234d010f43ea0e5cf9ff2f7db8ee7b8434b2eee6ac5ee49c8b6
+Description:  Python 3.10 codecs + unicode support
+
+Package: python3-cryptodome
+Version: 3.9.7-3
+Depends: libc, libgmp10, python3
+Provides: python3-crypto
+License: BSD-2-Clause
+Section: lang-python
+CPE-ID: cpe:/a:pycryptodome:pycryptodome
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 979437
+Filename: python3-cryptodome_3.9.7-3_arm_cortex-a9_vfpv3-d16.ipk
+Size: 976122
+SHA256sum: 84e362db6ef9240e1f62a54c2e1eee3d5fc9394628aa92359e410b4102964e36
+Description:  PyCryptodome is a self-contained Python package of low-level
+ cryptographic primitives.
+
+Package: python3-ctypes
+Version: 3.10.7-1
+Depends: libc, python3-light
+License: PSF-2.0
+Section: lang
+CPE-ID: cpe:/a:python:python
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 63608
+Filename: python3-ctypes_3.10.7-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 64306
+SHA256sum: 8e5076c7e34bbb44c606ded3442e58dffd8b84b0310b84453d0a62b451d21c1d
+Description:  Python 3.10 ctypes module
+
+Package: python3-dbm
+Version: 3.10.7-1
+Depends: libc, python3-light, libgdbm
+License: PSF-2.0
+Section: lang
+CPE-ID: cpe:/a:python:python
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 16962
+Filename: python3-dbm_3.10.7-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 17819
+SHA256sum: b518955c596ff2704a4c4a455e7d8e7fd069b1d0aa6338ce7429fcf5e9443783
+Description:  Python 3.10 dbm module
+
+Package: python3-decimal
+Version: 3.10.7-1
+Depends: libc, python3-light
+License: PSF-2.0
+Section: lang
+CPE-ID: cpe:/a:python:python
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 82243
+Filename: python3-decimal_3.10.7-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 82918
+SHA256sum: a98e28803296517edfd59be73885d3f31e221f320871dec641a949d24f9fdbe4
+Description:  Python 3.10 decimal module
+
+Package: python3-distutils
+Version: 3.10.7-1
+Depends: libc, python3-light, python3-email
+License: PSF-2.0
+Section: lang
+CPE-ID: cpe:/a:python:python
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 171863
+Filename: python3-distutils_3.10.7-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 172890
+SHA256sum: f611b6d95bcd20c9a6f9c8d0b392b85641d49b5315d9948c3f9701050a0b8a28
+Description:  Python 3.10 distutils module
+
+Package: python3-dns
+Version: 2.2.0-1
+Depends: libc, python3
+License: ISC
+Section: lang
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 226550
+Filename: python3-dns_2.2.0-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 227588
+SHA256sum: a29e83bcbe7f40206569e83cf3039226635f5cf2181e5849bfc541371bbfdc49
+Description:  dnspython is a DNS toolkit for Python. It supports almost all record types. It can be used for queries, zone transfers, and dynamic updates. It supports TSIG authenticated messages and EDNS0.
+
+Package: python3-email
+Version: 3.10.7-1
+Depends: libc, python3-light
+License: PSF-2.0
+Section: lang
+CPE-ID: cpe:/a:python:python
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 114903
+Filename: python3-email_3.10.7-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 115893
+SHA256sum: 9f81321241e91120aac3fbdcf593ba233c2d5a2198d1dcec9032345a1d3c0e45
+Description:  Python 3.10 email module
+
+Package: python3-light
+Version: 3.10.7-1
+Depends: libc, python3-base, libffi, libbz2-1.0
+License: PSF-2.0
+Section: lang
+CPE-ID: cpe:/a:python:python
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 2092004
+Filename: python3-light_3.10.7-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 2089973
+SHA256sum: d7bb06fcd10c9d3ae89e00a8bbd2815e6f42f4b97dfc388bb227cd5e1bbd5105
+Description:  This package is essentially the python3-base package plus
+ a few of the rarely used (and big) libraries stripped out
+ into separate packages.
+
+Package: python3-logging
+Version: 3.10.7-1
+Depends: libc, python3-light
+License: PSF-2.0
+Section: lang
+CPE-ID: cpe:/a:python:python
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 53991
+Filename: python3-logging_3.10.7-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 54969
+SHA256sum: 1d4a2e36aeaeb457550d1337b56a3b849cd238b67fd452a808884cc05b933c3b
+Description:  Python 3.10 logging module
+
+Package: python3-lzma
+Version: 3.10.7-1
+Depends: libc, python3-light, liblzma
+License: PSF-2.0
+Section: lang
+CPE-ID: cpe:/a:python:python
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 16270
+Filename: python3-lzma_3.10.7-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 17089
+SHA256sum: 7787e24be4358220781e5c840734c0c3db80d9c4268278d6e5f63746d824e28b
+Description:  Python 3.10 lzma module
+
+Package: python3-markdown
+Version: 3.3.6-1
+Depends: libc, python3-light, python3-logging
+License: BSD-3-Clause
+Section: lang
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 96605
+Filename: python3-markdown_3.3.6-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 97543
+SHA256sum: 096a1fef49d0c5d6f336b59255d1cf58d6f983851f387c85c3eca1afe7bdb026
+Description:  A fast and complete Python implementation of Markdown.
+
+Package: python3-multiprocessing
+Version: 3.10.7-1
+Depends: libc, python3-light
+License: PSF-2.0
+Section: lang
+CPE-ID: cpe:/a:python:python
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 102645
+Filename: python3-multiprocessing_3.10.7-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 103635
+SHA256sum: 5b143d76b59afdb57af0ce77578c9e103da881afa04518b6771bddcc38eb98a2
+Description:  Python 3.10 multiprocessing
+
+Package: python3-ncurses
+Version: 3.10.7-1
+Depends: libc, python3-light, libncursesw6
+License: PSF-2.0
+Section: lang
+CPE-ID: cpe:/a:python:python
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 47183
+Filename: python3-ncurses_3.10.7-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 47736
+SHA256sum: 00da500303458b3dbfa070e22d666e93d8cfefe5fe91ebb77475cb358a6b6744
+Description:  Python 3.10 ncurses module
+
+Package: python3-openssl
+Version: 3.10.7-1
+Depends: libc, python3-light, libopenssl1.1, ca-certs
+License: PSF-2.0
+Section: lang
+CPE-ID: cpe:/a:python:python
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 64848
+Filename: python3-openssl_3.10.7-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 64389
+SHA256sum: 2fbc5acc337f0e8f7d5d524585192d24c7b91e8076fd23cb9fa9733bd75ec274
+Description:  Python 3.10 SSL module
+
+Package: python3-pydoc
+Version: 3.10.7-1
+Depends: libc, python3-light
+License: PSF-2.0
+Section: lang
+CPE-ID: cpe:/a:python:python
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 202646
+Filename: python3-pydoc_3.10.7-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 203624
+SHA256sum: c157c769ae1d0eb32df3a167cf54e00b063932a4ad039c6a56a00061ad447ac7
+Description:  Python 3.10 pydoc module
+
+Package: python3-readline
+Version: 3.10.7-1
+Depends: libc, python3-light, libreadline8, libncursesw6
+License: PSF-2.0
+Section: lang
+CPE-ID: cpe:/a:python:python
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 9374
+Filename: python3-readline_3.10.7-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 10173
+SHA256sum: e46b79bfb36d809aae98475b1e8c1476b870814f6edc4264e430da495081d5c5
+Description:  Python 3.10 readline module
+
+Package: python3-sqlite3
+Version: 3.10.7-1
+Depends: libc, python3-light, libsqlite3-0
+License: PSF-2.0
+Section: lang
+CPE-ID: cpe:/a:python:python
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 30093
+Filename: python3-sqlite3_3.10.7-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 30848
+SHA256sum: 712e6588ae42140d39d9b123b4a6641fc8612efe472f2c4d4cbbf9e44bae4c04
+Description:  Python 3.10 sqlite3 module
+
+Package: python3-unittest
+Version: 3.10.7-1
+Depends: libc, python3-light
+License: PSF-2.0
+Section: lang
+CPE-ID: cpe:/a:python:python
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 79260
+Filename: python3-unittest_3.10.7-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 80246
+SHA256sum: 6201c3702e74d6eac9738d78763272c8bcdd4082d0b57167585acd55997ffc37
+Description:  Python 3.10 unittest module
+
+Package: python3-urllib
+Version: 3.10.7-1
+Depends: libc, python3-light, python3-email
+License: PSF-2.0
+Section: lang
+CPE-ID: cpe:/a:python:python
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 51500
+Filename: python3-urllib_3.10.7-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 52484
+SHA256sum: d30a46b015f842c9172eb50cdc68adb31d8ac71109165bba2d976081d9dd78b6
+Description:  Python 3.10 URL library module
+
+Package: python3-uuid
+Version: 3.10.7-1
+Depends: libc, python3-light, libuuid1
+License: PSF-2.0
+Section: lang
+CPE-ID: cpe:/a:python:python
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 11413
+Filename: python3-uuid_3.10.7-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 12283
+SHA256sum: 0c2de2777b53357c0dcf5278acacdd84382b1b6a225fb9f63fada37498539865
+Description:  Python 3.10 UUID module
+
+Package: python3-xml
+Version: 3.10.7-1
+Depends: libc, python3-light, python3-urllib
+License: PSF-2.0
+Section: lang
+CPE-ID: cpe:/a:python:python
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 202789
+Filename: python3-xml_3.10.7-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 202854
+SHA256sum: 6b2715686274a30d063863b882e00bf5ef89a4097a155587abec8395cc5a1d08
+Description:  Python 3.10 xml libs
+
+Package: python3
+Version: 3.10.7-1
+Depends: libc, python3-light, python3-asyncio, python3-cgi, python3-cgitb, python3-codecs, python3-ctypes, python3-dbm, python3-decimal, python3-distutils, python3-email, python3-logging, python3-lzma, python3-multiprocessing, python3-ncurses, python3-openssl, python3-pydoc, python3-readline, python3-sqlite3, python3-unittest, python3-urllib, python3-uuid, python3-xml
+License: PSF-2.0
+Section: lang
+CPE-ID: cpe:/a:python:python
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 104
+Filename: python3_3.10.7-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 1114
+SHA256sum: 8611b001d859bba738a6e67566f4bdd2fbdda0b0cd95078b1bc25225e31eea18
+Description:  This package contains the (almost) full Python install.
+ It's python3-light + all other packages.
+
 Package: runc
 Version: 1.1.4-1
 Depends: libc, libseccomp
@@ -267,6 +992,52 @@ Size: 3334324
 SHA256sum: 4e8beac62fadb3ae0de03eb74454eefb9f918150ab47c92da0fda603fafb236f
 Description:  runc is a CLI tool for spawning and running containers according to the OCI specification.
 
+Package: samba4-libs
+Version: 4.14.12-2
+Depends: libc, libtirpc, libreadline8, libpopt0, libcap, zlib, libgnutls, libtasn1, libuuid1, libopenssl1.1, libpthread, liburing, attr, libavahi-client, python3-cryptodome, python3-markdown, python3-dns, libopenldap, jansson4, libarchive, acl, attr
+License: GPL-3.0-only
+Section: net
+CPE-ID: cpe:/a:samba:samba
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 9840721
+Filename: samba4-libs_4.14.12-2_arm_cortex-a9_vfpv3-d16.ipk
+Size: 9741323
+SHA256sum: 8de5a12884f11de596d15bdeec5e53e2d6380dbb3f741a4bb765ec5329b3fc60
+Description:  Samba 4.14.12 libs
+
+Package: samba4-server
+Version: 4.14.12-2
+Depends: libc, samba4-libs
+Conflicts: samba36-server
+License: GPL-3.0-only
+Section: net
+CPE-ID: cpe:/a:samba:samba
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 6426356
+Filename: samba4-server_4.14.12-2_arm_cortex-a9_vfpv3-d16.ipk
+Size: 6330432
+SHA256sum: 78f1ba023c6bd36c7e7277ec3e7d0cfdc6fd08c4b7b64347c51536c91123a332
+Description:  installs: smbd (nmbd) smbpasswd pdbedit testparm (nmblookup) (smbcacls sharesec)
+ (samba samba-tool ntlm_auth samba-gpupdate samba_dnsupdate samba_kcc samba_spnupdate samba_upgradedns samba_downgrade_db)
+ 
+ This provides the basic fileserver service and is the minimum needed to serve file shares.
+ HINT: https://fitzcarraldoblog.wordpress.com/2016/10/17/a-correct-method-of-configuring-samba-for-browsing-smb-shares-in-a-home-network/
+
+Package: tar
+Version: 1.34-1
+Depends: xz, libc, libacl, libattr, bzip2
+Alternatives: 300:/bin/tar:/usr/libexec/tar-gnu
+License: GPL-3.0-or-later
+Section: utils
+CPE-ID: cpe:/a:gnu:tar
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 210657
+Filename: tar_1.34-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 211139
+SHA256sum: c58e2754c2712b27c8d4feeab141d5f6a1a6efc9a79d222619e05d8eb2a8422b
+Description:  Tar is a program for packaging a set of files as a
+ single archive in tar format.
+
 Package: tini
 Version: 0.19.0-2
 Depends: libc
@@ -278,4 +1049,48 @@ Filename: tini_0.19.0-2_arm_cortex-a9_vfpv3-d16.ipk
 Size: 36937
 SHA256sum: e41b7a3914575518bbc5a6ce50a4639916157a69e02fe8fc64c2e65203c208c8
 Description:  A tiny but valid init process for containers.
+
+Package: wsdd2
+Version: 2021-10-22-9831daf2-1
+Depends: libc
+License: GPL-3.0-only
+Section: net
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 20659
+Filename: wsdd2_2021-10-22-9831daf2-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 21666
+SHA256sum: 82611f24f638f2ff03deb9bde329d2730bee9a7270950478c7c16c3c2130acc9
+Description:  Web Services for Devices or Web Services on Devices (WSD),
+ is a Microsoft API to simplify programming connections to web service
+ enabled devices, such as printers, scanners and file shares.
+ 
+ This daemon advertises and responds to probe requests from Windows clients looking for file shares.
+ It also implements LLMNR multicast name lookup services.
+
+Package: xz-utils
+Version: 5.2.5-3
+Depends: libc
+License: Public-Domain LGPL-2.1-or-later GPL-2.0-or-later GPL-3.0-or-later
+Section: utils
+CPE-ID: cpe:/a:tukaani:xz
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 105
+Filename: xz-utils_5.2.5-3_arm_cortex-a9_vfpv3-d16.ipk
+Size: 874
+SHA256sum: 02bfc6e888ad6856592adcc7d51a1ac13749ce24bf9c9b143efda2d4e2139868
+Description:  XZ Utils (meta)
+
+Package: xz
+Version: 5.2.5-3
+Depends: libc, xz-utils, liblzma
+Alternatives: 300:/usr/bin/xz:/usr/libexec/xz-lzmautils, 300:/usr/bin/lzcat:/usr/libexec/xz-lzmautils, 300:/usr/bin/lzma:/usr/libexec/xz-lzmautils, 300:/usr/bin/unlzma:/usr/libexec/xz-lzmautils, 300:/usr/bin/unxz:/usr/libexec/xz-lzmautils, 300:/usr/bin/xzcat:/usr/libexec/xz-lzmautils
+License: Public-Domain LGPL-2.1-or-later GPL-2.0-or-later GPL-3.0-or-later
+Section: utils
+CPE-ID: cpe:/a:tukaani:xz
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 29990
+Filename: xz_5.2.5-3_arm_cortex-a9_vfpv3-d16.ipk
+Size: 30833
+SHA256sum: 890905eb15602dc3661bcdd67b27ceb248664669a326732c88cac409e7415395
+Description:  Contains: xz  lzcat lzma unlzma unxz xzcat
 
