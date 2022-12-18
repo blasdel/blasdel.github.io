@@ -628,6 +628,27 @@ Size: 5811
 SHA256sum: d723c844251b680bfcf0fbb68d12e71df1a7e9f009b635cf806904aadc0870a0
 Description:  Minimalistic JSON based scripting engine
 
+Package: libmbedtls12
+Version: 2.28.1-1
+Depends: libc
+Provides: libmbedtls
+Source: package/libs/mbedtls
+SourceName: libmbedtls
+License: GPL-2.0-or-later
+LicenseFiles: gpl-2.0.txt
+Section: libs
+SourceDateEpoch: 1661683604
+ABIVersion: 12
+CPE-ID: cpe:/a:arm:mbed_tls
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 200189
+Filename: libmbedtls12_2.28.1-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 200698
+SHA256sum: 70575651b1b32d18e1414133755410f86577a0a909d38554326de96d23e8ae3b
+Description:  The aim of the mbedtls project is to provide a quality, open-source
+ cryptographic library written in C and targeted at embedded systems.
+ This package contains the mbedtls library.
+
 Package: libmnl0
 Version: 1.0.5-1
 Depends: libc
