@@ -1,0 +1,216 @@
+Package: bash
+Version: 5.1.16-1
+Depends: libc, libncurses6, libreadline8
+Source: feeds/packages/utils/bash
+SourceName: bash
+License: GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1641862908
+CPE-ID: cpe:/a:gnu:bash
+Maintainer: Marcel Denia <naoir@gmx.net>
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 415577
+Filename: bash_5.1.16-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 416294
+SHA256sum: afb5f2711d196581b6c95a639b63df5e3b9a7454643fe9825279f02b75d8a6be
+Description:  Bash is an sh-compatible command language interpreter that executes
+ commands read from the standard input or from a file. Bash also
+ incorporates useful features from the Korn and C shells (ksh and csh).
+
+Package: btrfs-progs
+Version: 5.16.1-1
+Depends: libc, libattr, libuuid1, libmount1, zlib, libblkid1, liblzo2, libpthread, kmod-fs-btrfs
+Source: feeds/packages/utils/btrfs-progs
+SourceName: btrfs-progs
+License: GPL-2.0-only
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1644932022
+Maintainer: Karel Kočí <karel.koci@nic.cz>
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 1029749
+Filename: btrfs-progs_5.16.1-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 1029762
+SHA256sum: 217d17d5532fb27b3140fdb6697058c46af4131d6397065878b5fba42a102f76
+Description:  Btrfs is a new copy on write filesystem for Linux aimed at implementing
+ advanced features while focusing on fault tolerance, repair and easy
+ administration. Initially developed by Oracle, Btrfs is licensed under the
+ GPL and open for contribution from anyone.
+
+Package: cgroupfs-mount
+Version: 2020-06-26-05494281-2
+Depends: libc, mount-utils
+Source: feeds/packages/utils/cgroupfs-mount
+SourceName: cgroupfs-mount
+Section: utils
+SourceDateEpoch: 1604927975
+Maintainer: Gerard Ryan <G.M0N3Y.2503@gmail.com>
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 1242
+Filename: cgroupfs-mount_2020-06-26-05494281-2_arm_cortex-a9_vfpv3-d16.ipk
+Size: 2066
+SHA256sum: 9faf3ea8bb69c92e013f09d22d236b3ea465d4acc1ac5b1879a65b51b1e7f9fa
+Description:  Simple scripts to properly mount the cgroupfs hierarchy, especially structured for Debian packaging
+
+Package: containerd
+Version: 1.6.8-1
+Depends: libc, btrfs-progs, runc
+Source: feeds/packages/utils/containerd
+SourceName: containerd
+License: Apache-2.0
+LicenseFiles: LICENSE
+Section: utils
+SourceDateEpoch: 1663673322
+Maintainer: Gerard Ryan <G.M0N3Y.2503@gmail.com>
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 33644363
+Filename: containerd_1.6.8-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 33381278
+SHA256sum: daffe697f470a99f480c95cc129f27e088cce82ccc7fb175e8e80bc4a689ee41
+Description:  An industry-standard container runtime with an emphasis on simplicity, robustness and portability
+
+Package: dockerd
+Version: 20.10.18-1
+Depends: libc, ca-certificates, containerd, iptables, iptables-mod-extra, ip6tables, kmod-ipt-nat6, libseccomp, kmod-ipt-nat, kmod-ipt-physdev, kmod-nf-ipvs, kmod-veth, libnetwork, tini, uci-firewall
+Source: feeds/packages/utils/dockerd
+SourceName: dockerd
+License: Apache-2.0
+LicenseFiles: LICENSE
+Section: utils
+Require-User: docker:docker
+SourceDateEpoch: 1663673322
+Maintainer: Gerard Ryan <G.M0N3Y.2503@gmail.com>
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 16341829
+Filename: dockerd_20.10.18-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 16316076
+SHA256sum: 68e230d18cdabd4ed71c3c653258780b75d5ffc556c558d086f8f890ef31d2de
+Description:  The Docker CE Engine.
+
+Package: libattr
+Version: 2.5.1-1
+Depends: libc
+Source: feeds/packages/utils/attr
+SourceName: libattr
+License: LGPL-2.1-or-later
+LicenseFiles: doc/COPYING.LGPL
+Section: libs
+SourceDateEpoch: 1616347921
+Maintainer: Maxim Storchak <m.storchak@gmail.com>
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 6213
+Filename: libattr_2.5.1-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 7040
+SHA256sum: 28b9fc984c05d80538d138387bab2b85678e67e2cd4af0365f98e77d772bef53
+Description:  Extended attributes support
+ This package provides libattr
+
+Package: libdevmapper
+Version: 2.03.16-1
+Depends: libc, kmod-dm, libpthread, libuuid1, librt, libblkid1
+Source: feeds/packages/utils/lvm2
+SourceName: libdevmapper
+License: GPL-2.0 LGPL-2.1
+LicenseFiles: COPYING COPYING.lib
+Section: libs
+SourceDateEpoch: 1665687441
+CPE-ID: cpe:/a:heinz_mauelshagen:lvm2
+Maintainer: Daniel Golle <daniel@makrotopia.org>
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 152872
+Filename: libdevmapper_2.03.16-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 153638
+SHA256sum: 0e75abe509fb379e1a1da00ccdc599d266fc26f24b02462c2b973d443ca273ff
+Description:  The device-mapper is a component of the 2.6 linux kernel that supports logical
+ volume management. It is required by LVM2 and EVMS.
+
+Package: liblzo2
+Version: 2.10-4
+Depends: libc
+Provides: liblzo
+Source: feeds/packages/libs/lzo
+SourceName: liblzo
+License: GPL-2.0-or-later
+LicenseFiles: COPYING
+Section: libs
+SourceDateEpoch: 1635477716
+ABIVersion: 2
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 36060
+Filename: liblzo2_2.10-4_arm_cortex-a9_vfpv3-d16.ipk
+Size: 36931
+SHA256sum: 4faa591bb9d3cc89022b67115d308c4783813332e7f1b586444ae28ab2f68093
+Description:  LZO is a data compression library which is suitable for data de-/compression
+ in real-time. This means it favours speed over compression ratio.
+
+Package: libnetwork
+Version: 2022-07-16-0dde5c89-1
+Depends: libc
+Source: feeds/packages/utils/libnetwork
+SourceName: libnetwork
+License: Apache-2.0
+LicenseFiles: LICENSE
+Section: utils
+SourceDateEpoch: 1663673322
+Maintainer: Gerard Ryan <G.M0N3Y.2503@gmail.com>
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 6459687
+Filename: libnetwork_2022-07-16-0dde5c89-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 6448098
+SHA256sum: ea23bc1728e8292b32f4148cf6fca0320bdac3ad9f32b7e7fd3c8340e088c9a2
+Description:  Libnetwork provides a native Go implementation for connecting containers.
+ The goal of libnetwork is to deliver a robust Container Network Model that provides a consistent programming interface and the required network abstractions for applications.
+
+Package: libseccomp
+Version: 2.5.2-1
+Depends: libc
+Source: feeds/packages/libs/libseccomp
+SourceName: libseccomp
+License: LGPL-2.1-or-later
+LicenseFiles: LICENSE
+Section: libs
+SourceDateEpoch: 1632720950
+CPE-ID: cpe:/a:libseccomp_project:libseccomp
+Maintainer: Nikos Mavrogiannopoulos <nmav@gnutls.org>
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 43353
+Filename: libseccomp_2.5.2-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 43694
+SHA256sum: b14410ac12c5920193f7cd2504da4ad1ff3c4ffca9dd574b9829fa552cc88aa3
+Description:  This package contains the seccomp library.
+
+Package: runc
+Version: 1.1.4-1
+Depends: libc, libseccomp
+Source: feeds/packages/utils/runc
+SourceName: runc
+License: Apache-2.0
+LicenseFiles: LICENSE
+Section: utils
+SourceDateEpoch: 1663673322
+Maintainer: Gerard Ryan <G.M0N3Y.2503@gmail.com>
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 3362997
+Filename: runc_1.1.4-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 3334185
+SHA256sum: 497b94ec291407e3955f452e89fc795a9b23d06298c061941c7d1ca0df853588
+Description:  runc is a CLI tool for spawning and running containers according to the OCI specification.
+
+Package: tini
+Version: 0.19.0-2
+Depends: libc
+Source: feeds/packages/utils/tini
+SourceName: tini
+License: MIT
+LicenseFiles: LICENSE
+Section: utils
+SourceDateEpoch: 1623557101
+Maintainer: Gerard Ryan <G.M0N3Y.2503@gmail.com>
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 31720
+Filename: tini_0.19.0-2_arm_cortex-a9_vfpv3-d16.ipk
+Size: 32342
+SHA256sum: f4fb01bdff4c234a4e5ec8e492a7734bfbbd7dbac4782ac0ea76db85c68d2e0f
+Description:  A tiny but valid init process for containers.
+
