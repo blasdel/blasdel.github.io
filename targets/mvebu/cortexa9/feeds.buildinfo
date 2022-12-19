@@ -1,4 +1,0 @@
-src-git-full packages /home/ubuntu/Sources/OpenWRT/packages^dba8a0102
-src-git-full luci /home/ubuntu/Sources/OpenWRT/luci^96ec0cd3cc
-src-git-full routing /home/ubuntu/Sources/OpenWRT/routing^8502870
-src-git-full telephony /home/ubuntu/Sources/OpenWRT/telephony^1d2031a
